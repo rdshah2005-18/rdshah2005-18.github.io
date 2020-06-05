@@ -439,7 +439,9 @@ body
         rgba(0, 0, 0, 0.70)
       ),url("images/projects.jpg");
 
-      background-size: 1000px;
+      background-size: 1242px;
+      background-position: center;
+      
 
       /* background-image: none;
 
