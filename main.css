@@ -1,0 +1,492 @@
+@font-face{
+    font-family: "avenir";
+    src: url('./Avenir.ttc');
+}
+body
+{
+    font-family: "avenir";
+    font-weight: 900;
+
+  
+}
+
+/* NAVIGATION */
+
+.navPer
+{
+    background:none;
+}
+.nav-item 
+{
+    margin-right: 5.0rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.nav-link
+{
+    color: white;
+}
+.centernav
+{
+margin-left: 16.0rem;
+}
+.rightnav 
+{
+    margin-left: 8.0rem;
+}
+
+/*bg*/
+.cd-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .cd-section--bg-fixed {
+    min-height: 100vh;
+    background-attachment: fixed;
+  }
+  
+  /* backgrounds */
+  .cd-section:nth-child(1) {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.50), 
+        rgba(0, 0, 0, 0.50)
+      ),url("images/home.jpeg");
+      min-height: 100vh;
+      background-attachment: fixed;
+    
+  }
+  
+  .cd-section:nth-child(2) {
+
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.50), 
+        rgba(0, 0, 0, 0.50)
+      ),url("images/projects.jpg");
+      min-height: 100vh;
+      background-attachment: fixed;
+    
+  }
+  
+  .cd-section:nth-child(3) {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.50), 
+        rgba(0, 0, 0, 0.50)
+      ),url("images/aboutpage.jpeg");
+      min-height: 100vh;
+      background-attachment: fixed;
+  }
+
+/* home */
+
+.home 
+{
+  /* The image used */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.50), 
+    rgba(0, 0, 0, 0.50)
+  ),url("images/home.jpeg");
+
+  /* Full height */
+ 
+  background-attachment: scroll;
+
+  /* Center and scale the image nicely */
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+
+  position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.myName
+{
+    margin-top: 17.5rem;
+}
+.iam 
+{
+    font-size: 3.0rem;
+    letter-spacing: -1.5px;
+    font-weight: 100;
+    color: white;
+    margin: 0%;
+}
+.rohan
+{
+    font-size: 7.5rem;
+    font-weight: 800;
+    color: white;
+    background: rgba(37,37,37,0.50);
+
+}
+.name 
+{
+    margin-top: -6%;
+}
+.lname 
+{
+    margin-top: 0%;
+}
+.asp 
+{
+    font-size: 1.5rem;
+    font-family: 'Avenir Heavy';
+    color: white;
+    font-weight: 400;
+}
+
+.scroll 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17.75rem;
+}
+
+/*PROJECTS*/
+
+.projects
+{
+  padding-top: 6.0rem;
+  padding-bottom: 22px;
+}
+
+.projcontent
+{
+    margin-top: 4.5rem;
+}
+
+.proj 
+{
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 22px;
+    height: 12.5rem;
+    margin-bottom: 2.0rem;
+}
+
+.proj:hover
+{
+    box-shadow: 0 0 10px #ff4d00;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.title
+{
+    font-family: "Avenir Black";
+    color: white;
+    font-size: 2.0rem;
+    line-height: 2.0rem;
+  padding-top: 30px;
+  letter-spacing: -1px;
+
+
+}
+.title1
+{
+    width: 321px;
+    margin-right: 2.0rem;
+}
+.prime
+{
+    margin-left: 1.5rem;
+    margin-top: 3.0rem;
+}
+.desc 
+{
+    font-family: 'Avenir';
+    width: 487px;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.75px;
+    color: white;
+}
+.tesla 
+{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.um 
+{
+    margin-left: 24px;
+    margin-top: 15px;
+}
+.howstat
+{
+    margin-left: 24px;
+    margin-top: 50px;
+}
+.spendo 
+{
+    margin-left: 24px;
+    margin-top: 33px;
+}
+.xpense 
+{
+    margin-left: 54px;
+    margin-top: 24px;
+}
+
+/*ABOUT*/
+
+.about 
+{
+    margin-top: 121px;
+    margin-bottom: 1.5rem;
+}
+.aboutdesc
+{
+    width: 535px;
+    font-family: "Avenir";
+    color: white;
+    font-size: 2.0rem;
+    letter-spacing: -1px;
+    line-height: 2.0rem;
+    padding: 0%;
+    margin-top: 2.0rem;
+}
+.contact
+{
+    margin-bottom: 4.0rem;
+}
+.con 
+{
+    font-family: "Avenir Black";
+    color: white;
+    font-size: 2.0rem;
+    letter-spacing: -1px;
+    line-height: 2.0rem;
+}
+.social
+{
+    font-size: 3.0rem;
+    margin-right: 2.0rem;
+}
+a
+{
+    color: white;
+}
+a:hover 
+{
+    color: #ff4d00;
+}
+.bottomNav
+{
+    width: 100%;
+  
+}
+
+/*RESPONSIVENESS */
+
+@media (max-width: 576px) 
+{ 
+
+ /*NAVIGATION*/   
+
+    .centernav
+    {
+        margin-left: 1.0rem;
+        
+    }
+    .nav-item 
+{
+  width: 30px;
+  display: inline-block;
+    font-size: 1.5rem;
+    color: white;
+}
+.nav-link
+{
+    display: inline-block;
+    color: white;
+}
+
+/*HOME*/
+
+.empty 
+{
+    display: none;
+}
+
+.myName
+{
+    margin: auto;
+    width: 50%;
+    margin-top: 16.5rem;
+}
+.iam 
+{
+    font-size: 1.5rem;
+}
+.name
+{
+    width: 226px;
+    height: 71px;
+}
+.lname
+{
+    width: 182px;
+    height: 71px;
+}
+.asp
+{
+    font-size: 1.0rem;
+}
+.cd-section:nth-child(1) {
+    background-image: url("images/mobile/home.png");
+      min-height: 100vh;
+      background-attachment: fixed;
+    
+  }
+
+/*PROJECTS */
+.projImg
+{
+width: 210px;
+height: 58px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0%;
+}
+
+.title
+{
+    font-family: "Avenir Black";
+    color: white;
+    font-size: 22.18px;
+    line-height: 22.18px;
+  padding-top: 20.79px;
+  letter-spacing: -0.69px;
+
+
+}
+.title1
+{
+    width: 222.45px;
+    margin-right: 1.0rem;
+}
+.prime
+{
+    margin-left: 1.0rem;
+    margin-top: 2.0rem;
+}
+.desc 
+{
+    font-family: 'Avenir';
+    width: 320.86px;
+    font-size: 1.0rem;
+    margin-left: 1.0rem;
+    margin-top: 8.6px;
+    line-height: 1.0rem;
+    letter-spacing: -0.52px;
+    color: white;
+}
+.tesla 
+{
+    margin-left: 41px;
+    margin-top: 21px;
+    width: 47.85px;
+    height: 47.85px;
+}
+.um 
+{
+    width: 77px;
+    height: 56px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.howstat
+{
+    width: 100px;
+    height: 16px;
+    margin-left: 17px;
+    margin-top: 35px;
+}
+.spendo 
+{
+    width: 100px;
+    height: 46px;
+    margin-left: 17px;
+    margin-top: 23px;
+}
+.xpense 
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 34px;
+    margin-top: 14px;
+}
+.proj 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 22px;
+    height: 139px;
+    margin-bottom: 8px;
+    width: 371px;
+}
+
+/*ABOUT*/
+
+.cd-section:nth-child(3) {
+    background-image: url("images/mobile/about.png");
+      min-height: 100vh;
+      background-attachment: fixed;
+    
+  }
+.about
+{
+    margin-top: 2.0rem;
+}
+.aboutImg 
+{
+    width: 253px;
+    height: 46px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.aboutdesc
+{
+    margin: 0 auto;
+    font-size: 19.2px;
+    letter-spacing: -0.6px;
+    line-height: 19.2px;
+    text-align: center;
+    width: 322px;
+}
+
+.touchImg
+{
+    width: 315px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.con 
+{
+    font-size: 19.2px;
+    line-height: 19.2px;
+    letter-spacing: -0.6px;
+}
+.social
+{
+   font-size: 2.0rem;
+}
+
+}
