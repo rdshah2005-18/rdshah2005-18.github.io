@@ -404,7 +404,7 @@ body
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.50), 
         rgba(0, 0, 0, 0.50)
-      ),url("images/mobile/projects.png");
+      ),url("images/projects.jpg");
       min-height: 100vh;
       background-attachment: fixed;
     
@@ -414,7 +414,7 @@ body
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.50), 
         rgba(0, 0, 0, 0.50)
-      ),url("images/mobile/resume.png");
+      ),url("images/resumebg.jpg");
       min-height: 100vh;
       background-attachment: fixed;
     
