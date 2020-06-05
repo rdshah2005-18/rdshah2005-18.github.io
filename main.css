@@ -400,20 +400,15 @@ body
   }
   .cd-section:nth-child(2) {
 
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.50), 
-        rgba(0, 0, 0, 0.50)
-      ),url("images/mobile/projects.png");
+    background-image: url("images/mobile/projects.png");
       min-height: 100vh;
       background-attachment: fixed;
+      background-position: center;
     
   }
   .cd-section:nth-child(3) {
 
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.50), 
-        rgba(0, 0, 0, 0.50)
-      ),url("images/mobile/resume.png");
+    background-image:url("images/mobile/resume.png");
       min-height: 100vh;
       background-attachment: fixed;
     
