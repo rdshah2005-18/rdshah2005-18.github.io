@@ -6,8 +6,7 @@ body
 {
     font-family: "avenir";
     font-weight: 900;
-
-  
+    overflow-x: hidden;
 }
 
 /* NAVIGATION */
@@ -68,8 +67,16 @@ margin-left: 16.0rem;
       background-attachment: fixed;
     
   }
-  
   .cd-section:nth-child(3) {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.50), 
+        rgba(0, 0, 0, 0.50)
+      ),url("images/resumebg.jpg");
+      min-height: 100vh;
+      background-attachment: fixed;
+  }
+  
+  .cd-section:nth-child(4) {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.50), 
         rgba(0, 0, 0, 0.50)
@@ -151,6 +158,7 @@ margin-left: 16.0rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 17.75rem;
+    font-size: 1.5rem;
 }
 
 /*PROJECTS*/
@@ -442,7 +450,17 @@ margin-bottom: 0%;
     margin-bottom: 8px;
     width: 371px;
 }
+/*RESUME*/
 
+.resumeImg
+{
+    width: 384px;
+    height: 62px;
+}
+.scroll
+{
+    font-size: 0.5rem;
+}
 /*ABOUT*/
 
 .cd-section:nth-child(3) {
