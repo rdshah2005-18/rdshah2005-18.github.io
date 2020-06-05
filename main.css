@@ -345,9 +345,8 @@ a:hover
 }
 .cd-section:nth-child(1) {
     background-image: url("images/mobile/home.png");
-    background-size: cover;
+      min-height: 100vh;
       background-attachment: fixed;
-   
     
   }
 
@@ -442,12 +441,12 @@ margin-bottom: 0%;
 
 /*ABOUT*/
 
-/* .cd-section:nth-child(3) {
+.cd-section:nth-child(3) {
     background-image: url("images/mobile/about.png");
       min-height: 100vh;
       background-attachment: fixed;
     
-  } */
+  }
 .about
 {
     margin-top: 2.0rem;
