@@ -345,10 +345,9 @@ a:hover
 }
 .cd-section:nth-child(1) {
     background-image: url("images/mobile/home.png");
-    
+    background-size: cover;
       background-attachment: fixed;
-      width: 100%;
-      height: auto;
+   
     
   }
 
