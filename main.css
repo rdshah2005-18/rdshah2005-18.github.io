@@ -389,28 +389,28 @@ body
 {
     font-size: 1.0rem;
 }
-/* .cd-section:nth-child(1) {
+.cd-section:nth-child(1) {
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.50), 
-        rgba(0, 0, 0, 0.50)
+        rgba(0, 0, 0, 0.70), 
+        rgba(0, 0, 0, 0.70)
       ), url("images/bokeh.jpg");
       min-height: 100vh;
     background-attachment: fixed;
     
-  } */
-  .homeBG 
+  }
+  /* .homeBG 
   {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.50), 
         rgba(0, 0, 0, 0.50)
       ), url("images/mobile/home.jpg");
-  }
+  } */
   .cd-section:nth-child(2) {
 
     background-image:  linear-gradient(
-        rgba(0, 0, 0, 0.50), 
-        rgba(0, 0, 0, 0.50)
-      ),url("images/projects.jpg");
+        rgba(0, 0, 0, 0.70), 
+        rgba(0, 0, 0, 0.70)
+      ),url("images/bokeh.jpg");
       min-height: 100vh;
       background-attachment: fixed;
 
@@ -419,9 +419,9 @@ body
   .cd-section:nth-child(3) {
 
     background-image:linear-gradient(
-        rgba(0, 0, 0, 0.50), 
-        rgba(0, 0, 0, 0.50)
-      ),url("images/resumebg.jpg");
+        rgba(0, 0, 0, 0.70), 
+        rgba(0, 0, 0, 0.70)
+      ),url("images/bokeh.jpg");
       min-height: 100vh;
       background-attachment: fixed;
    
@@ -430,9 +430,9 @@ body
   .cd-section:nth-child(4) {
 
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.50), 
-        rgba(0, 0, 0, 0.50)
-      ),url("images/bokeh2.jpg");
+        rgba(0, 0, 0, 0.70), 
+        rgba(0, 0, 0, 0.70)
+      ),url("images/bokeh.jpg");
       min-height: 100vh;
       background-attachment: fixed;
     
