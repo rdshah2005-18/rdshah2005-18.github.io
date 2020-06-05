@@ -394,18 +394,16 @@ body
         rgba(0, 0, 0, 0.50), 
         rgba(0, 0, 0, 0.50)
       ), url("images/bokeh.jpg");
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
+      min-height: 100vh;
     background-attachment: fixed;
     
   }
-  /* .cd-section:nth-child(2) {
+  .cd-section:nth-child(2) {
 
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.50), 
         rgba(0, 0, 0, 0.50)
-      ),url("images/projects.jpg");
+      ),url("images/mobile/projects.png");
       min-height: 100vh;
       background-attachment: fixed;
     
@@ -415,11 +413,11 @@ body
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.50), 
         rgba(0, 0, 0, 0.50)
-      ),url("images/resumebg.jpg");
+      ),url("images/mobile/resume.png");
       min-height: 100vh;
       background-attachment: fixed;
     
-  } */
+  }
   .cd-section:nth-child(4) {
 
     background-image: linear-gradient(
