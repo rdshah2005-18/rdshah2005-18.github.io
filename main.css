@@ -397,9 +397,10 @@ body
     max-width: 100%;
     max-height: 100vh;
     margin: auto;
+    background-attachment: fixed;
     
   }
-  .cd-section:nth-child(2) {
+  /* .cd-section:nth-child(2) {
 
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.50), 
@@ -418,7 +419,7 @@ body
       min-height: 100vh;
       background-attachment: fixed;
     
-  }
+  } */
   .cd-section:nth-child(4) {
 
     background-image: linear-gradient(
