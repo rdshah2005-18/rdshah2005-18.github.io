@@ -440,13 +440,16 @@ margin-bottom: 0%;
 }
 
 /*ABOUT*/
-
+.cd-section
+{
+    display: grid;
+    height: 100%;
+}
 .cd-section:nth-child(3) {
     background-image: url("images/mobile/about.png");
-      min-height: 100vh;
-      background-attachment: fixed;
-    max-width: 600px;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
     
   }
 .about
