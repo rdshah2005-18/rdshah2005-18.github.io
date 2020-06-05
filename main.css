@@ -345,8 +345,10 @@ a:hover
 }
 .cd-section:nth-child(1) {
     background-image: url("images/mobile/home.png");
-      min-height: 100vh;
+      background-position: center center;
+      background-repeat: no-repeat;
       background-attachment: fixed;
+      background-size: cover;
     
   }
 
