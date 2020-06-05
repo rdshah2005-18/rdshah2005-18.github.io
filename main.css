@@ -403,7 +403,7 @@ body
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.50), 
         rgba(0, 0, 0, 0.50)
-      ), url("images/mobile/home.png");
+      ), url("images/mobile/home.jpg");
   }
   .cd-section:nth-child(2) {
 
