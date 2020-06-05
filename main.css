@@ -343,12 +343,14 @@ a:hover
 {
     font-size: 1.0rem;
 }
-/* .cd-section:nth-child(1) {
+.cd-section:nth-child(1) {
     background-image: url("images/mobile/home.png");
-      min-height: 100vh;
-      background-attachment: fixed;
     
-  } */
+      background-attachment: fixed;
+      width: 100%;
+      height: auto;
+    
+  }
 
 /*PROJECTS */
 .projImg
