@@ -400,17 +400,26 @@ body
   }
   .cd-section:nth-child(2) {
 
-    background-image: url("images/mobile/projects.png");
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.50), 
+        rgba(0, 0, 0, 0.50)
+      ),url("images/mobile/projects.png");
       min-height: 100vh;
       background-attachment: fixed;
-      background-position: center;
+      min-height: 100%;
+      min-width: 100%;
     
   }
   .cd-section:nth-child(3) {
 
-    background-image:url("images/mobile/resume.png");
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.50), 
+        rgba(0, 0, 0, 0.50)
+      ),url("images/mobile/resume.png");
       min-height: 100vh;
       background-attachment: fixed;
+      min-height: 100%;
+      min-width: 100%;
     
   }
   .cd-section:nth-child(4) {
