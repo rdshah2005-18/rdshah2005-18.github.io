@@ -410,7 +410,7 @@ body
         rgba(0, 0, 0, 0.70)
       ), url("images/mobile/home.jpg");
 
-      max-width: 500px;
+      background-size: contain;
       
       
       /* background-image: none;
