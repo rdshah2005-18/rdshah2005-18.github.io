@@ -389,7 +389,7 @@ body
 {
     font-size: 1.0rem;
 }
-.cd-section:nth-child(1) {
+/* .cd-section:nth-child(1) {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.50), 
         rgba(0, 0, 0, 0.50)
@@ -397,6 +397,13 @@ body
       min-height: 100vh;
     background-attachment: fixed;
     
+  } */
+  .homeBG 
+  {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.50), 
+        rgba(0, 0, 0, 0.50)
+      ), url("images/mobile/home.png");
   }
   .cd-section:nth-child(2) {
 
