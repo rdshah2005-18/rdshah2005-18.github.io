@@ -7,6 +7,8 @@ body
     font-family: "avenir";
     font-weight: 900;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 /* NAVIGATION */
@@ -385,7 +387,10 @@ body
     font-size: 1.0rem;
 }
 .cd-section:nth-child(1) {
-    background-image: url("images/mobile/home.png");
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.50), 
+        rgba(0, 0, 0, 0.50)
+      ),url("images/mobile/home.PNG");
     max-width: 100%;
     max-height: 100vh;
     margin: auto;
@@ -396,7 +401,7 @@ body
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.50), 
         rgba(0, 0, 0, 0.50)
-      ),url("images/projects.jpg");
+      ),url("images/mobile/projects.PNG");
       min-height: 100vh;
       background-attachment: fixed;
     
@@ -406,7 +411,7 @@ body
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.50), 
         rgba(0, 0, 0, 0.50)
-      ),url("images/resumebg.jpg");
+      ),url("images/mobile/resume.PNG");
       min-height: 100vh;
       background-attachment: fixed;
     
@@ -416,7 +421,7 @@ body
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.50), 
         rgba(0, 0, 0, 0.50)
-      ),url("images/mobile/about.png");
+      ),url("images/mobile/about.PNG");
       min-height: 100vh;
       background-attachment: fixed;
     
