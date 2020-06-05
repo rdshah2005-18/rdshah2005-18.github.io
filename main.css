@@ -350,6 +350,11 @@ a:hover
     background-image: url("images/mobile/home.png");
       min-height: 100vh;
       background-attachment: fixed;
+      padding: 0;
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
     
   }
 
