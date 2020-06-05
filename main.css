@@ -165,6 +165,7 @@ margin-left: 16.0rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     margin-top: 17.75rem;
     font-size: 1.5rem;
 }
@@ -318,7 +319,7 @@ body
  /*NAVIGATION*/   
 .navbar
 {
-    padding-bottom: 1.0rem;
+    padding-bottom: 3.0rem;
 }
     .centernav
     {
@@ -339,10 +340,8 @@ body
 }
 .scroll 
 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15.0rem;
+   text-align: center;
+    margin-top: 10.0rem;
     font-size: 1.5rem;
 }
 
