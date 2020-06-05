@@ -417,9 +417,17 @@ body
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.70), 
         rgba(0, 0, 0, 0.70)
-      ), url("images/mobile/home.jpg");
+      ), url("images/mobile/home.jpg")  no-repeat top center fixed;;
 
-    background-clip: border-box;
+ 
+
+   
+
+    background-size: cover;
+
+    height: 100%;
+
+    overflow: hidden;
 
      
 
@@ -431,7 +439,7 @@ body
       
       
       min-height: 100vh;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     
   }
   
