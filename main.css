@@ -343,12 +343,12 @@ a:hover
 {
     font-size: 1.0rem;
 }
-.cd-section:nth-child(1) {
+/* .cd-section:nth-child(1) {
     background-image: url("images/mobile/home.png");
       min-height: 100vh;
       background-attachment: fixed;
     
-  }
+  } */
 
 /*PROJECTS */
 .projImg
@@ -441,12 +441,12 @@ margin-bottom: 0%;
 
 /*ABOUT*/
 
-.cd-section:nth-child(3) {
+/* .cd-section:nth-child(3) {
     background-image: url("images/mobile/about.png");
       min-height: 100vh;
       background-attachment: fixed;
     
-  }
+  } */
 .about
 {
     margin-top: 2.0rem;
