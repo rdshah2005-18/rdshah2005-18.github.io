@@ -307,13 +307,22 @@ a:hover
     width: 100%;
   
 }
+.tabMode
+{
+    display: none;
+}
 
 /*RESPONSIVENESS */
 
 @media (max-width: 576px) 
 { 
+    .tabMode
+{
+    display: none;
+}
 body 
 {
+    max-width: 100%;
     overflow-x: hidden;
 }
  /*NAVIGATION*/   
@@ -618,4 +627,96 @@ margin-bottom: 0%;
    font-size: 2.0rem;
 }
 
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+    .navbar 
+    {
+        display: none;
+    }
+    .scroll 
+    {
+        display: none;
+    }
+    .cd-section:nth-child(2), .cd-section:nth-child(3), .cd-section:nth-child(4)
+    {
+        display: none;
+    }
+    .cd-section:nth-child(1) {
+        /* background-image: linear-gradient(
+            rgba(0, 0, 0, 0.70), 
+            rgba(0, 0, 0, 0.70)
+          ), url("images/bokeh.jpg"); */
+    
+          background-image: none;
+          background: #ffd89b;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to top, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to top, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          
+          
+          
+          min-height: 100vh;
+        background-attachment: fixed;
+        
+      }
+  .myName
+  {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0%;
+      margin-bottom: 0%;
+      padding-bottom: 0%;
+      width: 50%;
+  }
+  .iam 
+  {
+      font-size: 2.0rem;
+      text-align: left;
+      padding-left: 20%;
+      margin-bottom: -10%;
+  }
+  .asp 
+  {
+      text-align: center;
+      margin-top: -5%;
+  }
+  .name
+  {
+      display: block;
+      width: 75%;
+      height: 75%;
+      margin: 0 auto;
+      margin-top: -5%;
+  }
+  .lname
+  {
+    display: block;
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    margin-top: -5%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+  }
+  .avatarPic
+  {
+      border: 5px solid white;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20%;
+      width: 20.0rem;
+      height: 20.0rem;
+      border-radius: 50%;
+  
+  }
+    .tabMode 
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 }
