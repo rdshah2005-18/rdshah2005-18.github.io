@@ -293,7 +293,10 @@ a:hover
 { 
 
  /*NAVIGATION*/   
-
+.navbar
+{
+    margin-bottom: 3.0rem;
+}
     .centernav
     {
         margin-left: 1.0rem;
