@@ -356,7 +356,17 @@ body
 {
     font-size: 1.0rem;
 }
+.cd-section:nth-child(1) {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.80), 
+        rgba(0, 0, 0, 0.80)
+      );
 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+  }
 
 /*PROJECTS */
 .projImg
