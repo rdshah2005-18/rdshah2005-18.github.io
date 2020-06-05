@@ -446,7 +446,7 @@ margin-bottom: 0%;
     height: 100%;
 }
 .cd-section:nth-child(3) {
-    background-image: url("images/mobile/about.png");
+    background-image: url("images/mobile/home.png");
     max-width: 100%;
     max-height: 100vh;
     margin: auto;
