@@ -248,7 +248,6 @@ margin-left: 16.0rem;
 .aboutdesc
 {
     width: 535px;
-  
     color: white;
     font-size: 2.0rem;
     letter-spacing: -1px;
@@ -348,13 +347,10 @@ a:hover
 }
 .cd-section:nth-child(1) {
     background-image: url("images/mobile/home.png");
-      min-height: 100vh;
-      background-attachment: fixed;
-      padding: 0;
-      display: block;
-      margin: 0 auto;
-      max-height: 100%;
-      max-width: 100%;
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     
   }
 
