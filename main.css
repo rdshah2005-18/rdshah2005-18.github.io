@@ -387,7 +387,10 @@ body
     font-size: 1.0rem;
 }
 .cd-section:nth-child(1) {
-    background-image: url("images/mobile/home.png");
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.50), 
+        rgba(0, 0, 0, 0.50)
+      ),url("images/mobile/home.png");
     min-width: 100%;
     min-height: 100%;
     background-attachment: fixed;
@@ -420,7 +423,10 @@ body
   }
   .cd-section:nth-child(4) {
 
-    background-image: url("images/mobile/about.png");
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.50), 
+        rgba(0, 0, 0, 0.50)
+      ), url("images/mobile/about.png");
     min-width: 100%;
     min-height: 100%;
       background-attachment: fixed;
