@@ -256,10 +256,75 @@ margin-left: 16.0rem;
     margin-left: 54px;
     margin-top: 24px;
 }
+
+/*RESUME */
 .resumeImg
 {
-    width: 384px;
-    height: 62px;
+    width: 40%;
+    height: 40%;
+}
+.resumeStarts 
+{
+    margin-top: 3.3rem;
+    margin-bottom: 1.0rem;
+    padding-bottom: 0%;
+}
+.resumeScroll
+{
+    margin-top: 0%;
+}
+a:hover
+{
+    text-decoration: none;
+}
+a .univ:hover
+{
+text-decoration: none;
+color: #ff4d00;
+}
+.resumeTitle
+{
+    font-family: "Avenir Black";
+    font-size: 2.0rem;
+    color: white;
+}
+.resumeBG 
+{
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 22px;
+    width: 100%;
+    padding-top: 1.0rem;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+    padding-bottom: 1.0rem;
+    margin-bottom: 1.0rem;
+}
+.univ 
+{
+   letter-spacing: -0.75px;
+
+    font-family: "Avenir Black";
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: white;
+}
+.degree
+{
+    letter-spacing: -0.5px;
+    font-size: 1.0rem;
+    color: white;
+}
+.skills
+{
+    color: white;
+    font-size: 2.5rem;
+    margin: 0.3rem;
+    margin-right: 1.0rem;
+}
+.points
+{
+    margin-left:0.5rem;
+    padding: 0;
 }
 /*ABOUT*/
 
@@ -333,11 +398,14 @@ body
  /*NAVIGATION*/   
 .navbar
 {
-    padding-bottom: 3.0rem;
+    background: rgba(0,0,0,0.50);
+    padding-bottom: 2.0rem;
+   
 }
     .centernav
     {
         margin-left: 1.0rem;
+       
         
     }
     .nav-item 
@@ -527,6 +595,11 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 0%;
+margin-top: -20%;
+}
+.projcontent
+{
+    margin-top: 1.0rem;
 }
 
 .title
@@ -615,12 +688,34 @@ margin-bottom: 0%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0%;
+    margin-top: -20%;
+    padding-top: 0%;
+}
+.resumeTitle
+{
+    font-size: 1.5rem;
+}
+.resumeStarts
+{
+    margin-top: 0%;
+}
+.resumeScroll
+{
+    margin-top: 0%;
 }
 .scrolldown
 {
     font-size: 1.0rem;
     letter-spacing: -0.6px;
 }
+.univ
+{
+    font-size: 22.8px;
+    line-height: 22.8px;
+}
+
+
 /*ABOUT*/
 
 .about
