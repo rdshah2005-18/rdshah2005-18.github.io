@@ -9,7 +9,10 @@
     src: url('./AvenirLTStd-Book.otf');
 }
 
-
+html
+{
+    scroll-behavior: smooth;
+}
 body
 {
     font-family: "avenir";
@@ -17,6 +20,7 @@ body
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* NAVIGATION */
