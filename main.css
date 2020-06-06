@@ -403,6 +403,10 @@ a:hover
 {
     display: none;
 }
+html 
+{
+    overflow-x: hidden;
+}
 body 
 {
     background-color: black;
