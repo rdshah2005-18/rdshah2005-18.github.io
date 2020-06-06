@@ -15,6 +15,7 @@ html
 }
 body
 {
+    text-transform: lowercase;
     font-family: "avenir";
     font-weight: 900;
     overflow-x: hidden;
