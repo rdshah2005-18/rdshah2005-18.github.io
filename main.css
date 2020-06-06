@@ -321,13 +321,22 @@ a:hover
 {
     display: none;
 }
-body 
+/* body 
 {
     background-color: black;
     margin: 0%;
     padding: 0%;
     max-width: 100%;
     overflow-x: hidden;
+} */
+body {  
+
+    height:100%;
+
+    overflow: scroll;
+
+    -webkit-overflow-scrolling: touch;
+
 }
  /*NAVIGATION*/   
 .navbar
