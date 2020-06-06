@@ -310,7 +310,8 @@ color: #ff4d00;
 }
 .degree
 {
-    font-family: "Avenir";
+    font-family:'Avenir';
+    font-weight: 300;
     letter-spacing: -0.5px;
     font-size: 1.0rem;
     color: white;
