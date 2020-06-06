@@ -2,6 +2,8 @@
     font-family: "avenir";
     src: url('./Avenir.ttc');
 }
+
+
 body
 {
     font-family: "avenir";
@@ -310,7 +312,7 @@ color: #ff4d00;
 }
 .degree
 {
-    font-family:'Avenir';
+    font-family:'avenir book';
     font-weight: 300;
     letter-spacing: -0.5px;
     font-size: 1.0rem;
