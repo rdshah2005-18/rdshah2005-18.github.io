@@ -237,7 +237,7 @@ margin-left: 16.0rem;
     margin-left: 1.5rem;
     margin-top: 1.5rem;
     line-height: 1.5rem;
-    letter-spacing: -0.75px;
+    letter-spacing: -1.5px;
     color: white;
 }
 .tesla 
@@ -320,8 +320,10 @@ color: #ff4d00;
 .degree
 {
     font-family:'book';
-    letter-spacing: -0.5px;
+    letter-spacing: -1.0px;
     font-size: 1.0rem;
+    line-height: 1.2rem;
+    margin-bottom: 0.3rem;
     color: white;
 }
 .skills
@@ -349,7 +351,7 @@ color: #ff4d00;
     width: 535px;
     color: white;
     font-size: 1.5rem;
-    letter-spacing: -1px;
+    letter-spacing: -1.5px;
     line-height: 1.5rem;
     padding: 0%;
     margin-top: 2.0rem;
@@ -643,7 +645,7 @@ margin-top: -20%;
     margin-left: 1.0rem;
     margin-top: 8.6px;
     line-height: 1.0rem;
-    letter-spacing: -0.52px;
+    letter-spacing: -1.0px;
     color: white;
 }
 .tesla 
@@ -747,7 +749,7 @@ margin-top: -20%;
 {
     margin: 0 auto;
     font-size: 19.2px;
-    letter-spacing: -0.6px;
+    letter-spacing: -1.5px;
     line-height: 19.2px;
     text-align: center;
     width: 322px;
