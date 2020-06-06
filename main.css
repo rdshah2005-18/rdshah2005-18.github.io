@@ -3,6 +3,12 @@
     src: url('./Avenir.ttc');
 }
 
+@font-face
+{
+    font-family: "book";
+    src: url('./AvenirLTStd-Book.otf');
+}
+
 
 body
 {
@@ -312,8 +318,7 @@ color: #ff4d00;
 }
 .degree
 {
-    font-family:'avenir book';
-    font-weight: 300;
+    font-family:'book';
     letter-spacing: -0.5px;
     font-size: 1.0rem;
     color: white;
