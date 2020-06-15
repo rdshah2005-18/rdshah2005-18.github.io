@@ -1,119 +1,96 @@
-@font-face{
-    font-family: "avenir";
-    src: url('./Avenir.ttc');
+@font-face {
+  font-family: "avenir";
+  src: url("./Avenir.ttc");
 }
 
-@font-face
-{
-    font-family: "book";
-    src: url('./AvenirLTStd-Book.otf');
+@font-face {
+  font-family: "book";
+  src: url("./AvenirLTStd-Book.otf");
 }
 
-html
-{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body
-{
-    text-transform: lowercase;
-    font-family: "avenir";
-    font-weight: 900;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+body {
+  text-transform: lowercase;
+  font-family: "avenir";
+  font-weight: 900;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 /* NAVIGATION */
 
-.navPer
-{
-    background:none;
+.navPer {
+  background: none;
 }
-.nav-item 
-{
-    margin-right: 5.0rem;
-    font-size: 1.5rem;
-    color: white;
+.nav-item {
+  margin-right: 5rem;
+  font-size: 1.5rem;
+  color: white;
 }
-.nav-link
-{
-    color: white;
+.nav-link {
+  color: white;
 }
-.centernav
-{
-margin-left: 16.0rem;
+.centernav {
+  margin-left: 16rem;
 }
-.rightnav 
-{
-    margin-left: 8.0rem;
+.rightnav {
+  margin-left: 8rem;
 }
 
 /*bg*/
 .cd-section {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-  
-  .cd-section--bg-fixed {
-    min-height: 100vh;
-    background-attachment: fixed;
-  }
-  
-  /* backgrounds */
-  .cd-section:nth-child(1) {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.50), 
-        rgba(0, 0, 0, 0.50)
-      ),url("images/home.jpeg");
-      min-height: 100vh;
-      background-attachment: fixed;
-    
-      
-  }
-  
-  .cd-section:nth-child(2) {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.50), 
-        rgba(0, 0, 0, 0.50)
-      ),url("images/projects.jpg");
-      min-height: 100vh;
-      background-attachment: fixed;
-    
-  }
-  .cd-section:nth-child(3) {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.50), 
-        rgba(0, 0, 0, 0.50)
-      ),url("images/resumebg.jpg");
+.cd-section--bg-fixed {
+  min-height: 100vh;
+  background-attachment: fixed;
+}
 
-      min-height: 100vh;
-      background-attachment: fixed;
-  }
-  
-  .cd-section:nth-child(4) {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.50), 
-        rgba(0, 0, 0, 0.50)
-      ),url("images/aboutpage.jpeg");
-      min-height: 100vh;
-      background-attachment: fixed;
-  }
+/* backgrounds */
+.cd-section:nth-child(1) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/home.jpeg");
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.cd-section:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/projects.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+.cd-section:nth-child(3) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/resumebg.jpg");
+
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.cd-section:nth-child(4) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/aboutpage.jpeg");
+  min-height: 100vh;
+  background-attachment: fixed;
+}
 
 /* home */
 
-.home 
-{
+.home {
   /* The image used */
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.50), 
-    rgba(0, 0, 0, 0.50)
-  ),url("images/home.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/home.jpeg");
 
   /* Full height */
- 
+
   background-attachment: scroll;
 
   /* Center and scale the image nicely */
@@ -121,392 +98,327 @@ margin-left: 16.0rem;
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
 
-  position:fixed;
-    padding:0;
-    margin:0;
+  position: fixed;
+  padding: 0;
+  margin: 0;
 
-    top:0;
-    left:0;
+  top: 0;
+  left: 0;
 
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-
-
-.myName
-{
-    margin-top: 17.5rem;
+.myName {
+  margin-top: 17.5rem;
 }
 
-.avatarPic 
-{
-    display: none;
+.avatarPic {
+  display: none;
 }
-.iam 
-{
-    font-size: 3.0rem;
-    letter-spacing: -1.5px;
-    font-weight: 100;
-    color: white;
-    margin: 0%;
+.iam {
+  font-size: 3rem;
+  letter-spacing: -1.5px;
+  font-weight: 100;
+  color: white;
+  margin: 0%;
 }
-.rohan
-{
-    font-size: 7.5rem;
-    font-weight: 800;
-    color: white;
-    background: rgba(37,37,37,0.50);
-
+.rohan {
+  font-size: 7.5rem;
+  font-weight: 800;
+  color: white;
+  background: rgba(37, 37, 37, 0.5);
 }
-.name 
-{
-    margin-top: -6%;
+.name {
+  margin-top: -6%;
 }
-.lname 
-{
-    margin-top: 0%;
+.lname {
+  margin-top: 0%;
 }
-.asp 
-{
-    font-size: 1.5rem;
-    font-family: 'Avenir Heavy';
-    color: white;
-    font-weight: 400;
+.asp {
+  font-size: 1.5rem;
+  font-family: "Avenir Heavy";
+  color: white;
+  font-weight: 400;
 }
 
-.scroll 
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 17.75rem;
-    font-size: 1.5rem;
+.scroll {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 17.75rem;
+  font-size: 1.5rem;
 }
 
 /*PROJECTS*/
 
-.projects
-{
-  padding-top: 6.0rem;
+.projects {
+  padding-top: 6rem;
   padding-bottom: 22px;
 }
 
-.projcontent
-{
-    margin-top: 4.5rem;
+.projcontent {
+  margin-top: 4.5rem;
 }
 
-.proj 
-{
-    background-color: rgba(0, 0, 0, 0.50);
-    border-radius: 22px;
-    height: 12.5rem;
-    width: 100%;
-    margin-bottom: 2.0rem;
+.proj {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  height: 12.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
-.proj:hover
-{
-    box-shadow: 0 0 10px #ff4d00;
-    background-color: rgba(0, 0, 0, 0.80);
+.proj:hover {
+  box-shadow: 0 0 10px #ff4d00;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.title
-{
-    font-family: "Avenir Black";
-    color: white;
-    font-size: 2.0rem;
-    line-height: 2.0rem;
+.title {
+  font-family: "Avenir Black";
+  color: white;
+  font-size: 2rem;
+  line-height: 2rem;
   padding-top: 30px;
   letter-spacing: -1px;
+}
+.title1 {
+  width: 321px;
+  margin-right: 2rem;
+}
+.taxi {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.prime {
+  margin-left: 1.5rem;
+  margin-top: 3rem;
+}
+.desc {
+  font-family: "book";
 
-
+  width: 487px;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: -1.5px;
+  color: white;
 }
-.title1
-{
-    width: 321px;
-    margin-right: 2.0rem;
+.tesla {
+  margin-left: 60px;
+  margin-top: 30px;
 }
-.prime
-{
-    margin-left: 1.5rem;
-    margin-top: 3.0rem;
+.um {
+  margin-left: 24px;
+  margin-top: 15px;
 }
-.desc 
-{
-    font-family: "book";
- 
-    width: 487px;
-    font-size: 1.5rem;
-    margin-left: 1.5rem;
-    margin-top: 1.5rem;
-    line-height: 1.5rem;
-    letter-spacing: -1.5px;
-    color: white;
+.howstat {
+  margin-left: 24px;
+  margin-top: 50px;
 }
-.tesla 
-{
-    margin-left: 60px;
-    margin-top: 30px;
+.spendo {
+  margin-left: 24px;
+  margin-top: 33px;
 }
-.um 
-{
-    margin-left: 24px;
-    margin-top: 15px;
-}
-.howstat
-{
-    margin-left: 24px;
-    margin-top: 50px;
-}
-.spendo 
-{
-    margin-left: 24px;
-    margin-top: 33px;
-}
-.xpense 
-{
-    margin-left: 54px;
-    margin-top: 24px;
+.xpense {
+  margin-left: 54px;
+  margin-top: 24px;
 }
 
 /*RESUME */
-.resumeImg
-{
-    width: 40%;
-    height: 40%;
+.resumeImg {
+  width: 40%;
+  height: 40%;
 }
-.resumeStarts 
-{
-    margin-top: 3.3rem;
-    margin-bottom: 1.0rem;
-    padding-bottom: 0%;
+.resumeStarts {
+  margin-top: 3.3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0%;
 }
-.resumeScroll
-{
-    margin-top: 0%;
+.resumeScroll {
+  margin-top: 0%;
 }
-a:hover
-{
-    text-decoration: none;
+a:hover {
+  text-decoration: none;
 }
-a .univ:hover
-{
-text-decoration: none;
-color: #ff4d00;
+a .univ:hover {
+  text-decoration: none;
+  color: #ff4d00;
 }
-.resumeTitle
-{
-    font-family: "Avenir Black";
-    font-size: 2.0rem;
-    color: white;
+.resumeTitle {
+  font-family: "Avenir Black";
+  font-size: 2rem;
+  color: white;
 }
-.resumeBG 
-{
-    background-color: rgba(0, 0, 0, 0.50);
-    border-radius: 22px;
-    width: 100%;
-    padding-top: 1.0rem;
-    padding-left: 1.5rem;
-    padding-right:1.5rem;
-    padding-bottom: 1.0rem;
-    margin-bottom: 1.0rem;
+.resumeBG {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
-.univ 
-{
-   letter-spacing: -0.75px;
+.univ {
+  letter-spacing: -0.75px;
 
-    font-family: "Avenir Black";
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    color: white;
+  font-family: "Avenir Black";
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: white;
 }
-.degree
-{
-    font-family:'book';
-    letter-spacing: -1.0px;
-    font-size: 1.0rem;
-    line-height: 1.2rem;
-    margin-bottom: 0.3rem;
-    color: white;
+.degree {
+  font-family: "book";
+  letter-spacing: -1px;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.3rem;
+  color: white;
 }
-.skills
-{
-    color: white;
-    font-size: 2.5rem;
-    margin: 0.3rem;
-    margin-right: 1.0rem;
+.skills {
+  color: white;
+  font-size: 2.5rem;
+  margin: 0.3rem;
+  margin-right: 1rem;
 }
-.points
-{
-    margin-left:0.5rem;
-    padding: 0;
+.points {
+  margin-left: 0.5rem;
+  padding: 0;
 }
 /*ABOUT*/
 
-.about 
-{
-    margin-top: 121px;
-    margin-bottom: 1.5rem;
+.about {
+  margin-top: 121px;
+  margin-bottom: 1.5rem;
 }
-.aboutdesc
-{
-    font-family: "book";
-    width: 535px;
-    color: white;
-    font-size: 1.5rem;
-    letter-spacing: -1.5px;
-    line-height: 1.5rem;
-    padding: 0%;
-    margin-top: 2.0rem;
+.aboutdesc {
+  font-family: "book";
+  width: 535px;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: -1.5px;
+  line-height: 1.5rem;
+  padding: 0%;
+  margin-top: 2rem;
 }
-.contact
-{
-    margin-bottom: 4.0rem;
+.contact {
+  margin-bottom: 4rem;
 }
-.con 
-{
-    font-family: "Avenir Black";
-    color: white;
-    font-size: 2.0rem;
-    letter-spacing: -1px;
-    line-height: 2.0rem;
+.con {
+  font-family: "Avenir Black";
+  color: white;
+  font-size: 2rem;
+  letter-spacing: -1px;
+  line-height: 2rem;
 }
-.social
-{
-    font-size: 3.0rem;
-    margin-right: 2.0rem;
+.social {
+  font-size: 3rem;
+  margin-right: 2rem;
 }
-a
-{
-    color: white;
+a {
+  color: white;
 }
-a:hover 
-{
-    color: #ff4d00;
+a:hover {
+  color: #ff4d00;
 }
-.bottomNav
-{
-    width: 100%;
-  
+.bottomNav {
+  width: 100%;
 }
-.tabMode
-{
-    display: none;
+.tabMode {
+  display: none;
 }
 
 /*RESPONSIVENESS */
 
-@media (max-width: 576px) 
-{ 
-    .tabMode
-{
+@media (max-width: 576px) {
+  .tabMode {
     display: none;
-}
-html 
-{
+  }
+  html {
     overflow-x: hidden;
-}
-body 
-{
+  }
+  body {
     background-color: black;
     margin: 0%;
     padding: 0%;
     max-width: 100%;
     overflow-x: hidden;
-}
+  }
 
- /*NAVIGATION*/   
-.navbar
-{
-    background: rgba(0,0,0,0.50);
-    padding-bottom: 2.0rem;
-   
-}
-    .centernav
-    {
-        margin-left: 1.0rem;
-       
-        
-    }
-    .nav-item 
-{
-  width: 30px;
-  display: inline-block;
+  /*NAVIGATION*/
+  .navbar {
+    background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 2rem;
+  }
+  .centernav {
+    margin-left: 1rem;
+  }
+  .nav-item {
+    width: 30px;
+    display: inline-block;
     font-size: 1.5rem;
     color: white;
-}
-.nav-link
-{
+  }
+  .nav-link {
     display: inline-block;
     color: white;
-}
-.scroll 
-{
-   text-align: center;
-    margin-top: 10.0rem;
+  }
+  .scroll {
+    text-align: center;
+    margin-top: 10rem;
     font-size: 1.5rem;
-}
+  }
 
-/*HOME*/
+  /*HOME*/
 
-.empty 
-{
+  .empty {
     display: none;
-}
+  }
 
-.myName
-{
+  .myName {
     margin-top: 0%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-.avatarPic
-{
+  }
+  .avatarPic {
     border: 5px solid white;
     display: block;
     margin: 0 auto;
     margin-top: 20%;
-    width: 20.0rem;
-    height: 20.0rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
-
-}
-.iam 
-{
+  }
+  .iam {
     font-size: 1.5rem;
     margin-bottom: -6%;
-}
-.name
-{
+  }
+  .name {
     width: 226px;
     height: 71px;
-}
-.lname
-{
+  }
+  .lname {
     width: 182px;
     height: 71px;
-}
-.asp
-{
+  }
+  .asp {
     font-family: "book";
-    font-size: 1.0rem;
-}
-.homeBG 
-{
+    font-size: 1rem;
+  }
+  .homeBG {
     background-image: url("images/mobile/home.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     margin: 0;
     padding: 0%;
-}
-.cd-section:nth-child(1) 
-{
+  }
+  .cd-section:nth-child(1) {
     /* background-image: linear-gradient(
         rgba(0, 0, 0, 0.70), 
         rgba(0, 0, 0, 0.70)
@@ -522,24 +434,17 @@ body
 
     overflow: hidden; */
 
-     
+    background-image: none;
+    background: #19547b;
+    background: -webkit-linear-gradient(to bottom, #19547b, #ffd89b);
+    background: linear-gradient(to bottom, #19547b, #ffd89b);
 
-      background-image: none;
-      background: #19547b;  
-      background: -webkit-linear-gradient(to bottom, #19547b, #ffd89b);  
-      background: linear-gradient(to bottom, #19547b, #ffd89b); 
+    height: 100%;
 
-
-
-
-      
-      height: 100%;
-      
-      min-height: 100vh;
+    min-height: 100vh;
     background-attachment: fixed;
-    
   }
-  
+
   /* .homeBG 
   {
     background-image: linear-gradient(
@@ -548,153 +453,144 @@ body
       ), url("images/mobile/home.jpg");
   } */
   .cd-section:nth-child(2) {
-/* 
+    /* 
     background-image:  linear-gradient(
         rgba(0, 0, 0, 0.70), 
         rgba(0, 0, 0, 0.70)
       ),url("images/projects.jpg");
 
       background-size: cover; */
-      
 
-      background-image: none;
+    background-image: none;
 
-      background: #1D2B64;  
-background: -webkit-linear-gradient(to top, #F8CDDA, #1D2B64);  
-background: linear-gradient(to top, #F8CDDA, #1D2B64); 
+    background: #1d2b64;
+    background: -webkit-linear-gradient(to top, #f8cdda, #1d2b64);
+    background: linear-gradient(to top, #f8cdda, #1d2b64);
 
-
-      min-height: 100vh;
-      background-attachment: fixed;
-
-    
-
-    
+    min-height: 100vh;
+    background-attachment: fixed;
   }
   .cd-section:nth-child(3) {
-
     /* background-image:linear-gradient(
         rgba(0, 0, 0, 0.70), 
         rgba(0, 0, 0, 0.70)
       ),url("images/bokeh.jpg"); */
 
-      background-image: none;
+    background-image: none;
 
-      background: #F3904F;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to top, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to top, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      
+    background: #f3904f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #3b4371,
+      #f3904f
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to top,
+      #3b4371,
+      #f3904f
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-      
-  
-      min-height: 100vh;
-      background-attachment: fixed;
-   
-    
+    min-height: 100vh;
+    background-attachment: fixed;
   }
   .cd-section:nth-child(4) {
-
     /* background-image: linear-gradient(
         rgba(0, 0, 0, 0.70), 
         rgba(0, 0, 0, 0.70)
       ),url("images/bokeh.jpg"); */
 
-      background-image: none;
-      background: #bdc3c7;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      
+    background-image: none;
+    background: #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #2c3e50,
+      #bdc3c7
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to top,
+      #2c3e50,
+      #bdc3c7
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-      min-height: 100vh;
-      background-attachment: fixed;
-    
+    min-height: 100vh;
+    background-attachment: fixed;
   }
 
-/*PROJECTS */
-.projImg
-{
-width: 210px;
-height: 58px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 0%;
-margin-top: -20%;
-}
-.projcontent
-{
-    margin-top: 1.0rem;
-}
+  /*PROJECTS */
+  .projImg {
+    width: 210px;
+    height: 58px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    margin-top: -20%;
+  }
+  .projcontent {
+    margin-top: 1rem;
+  }
 
-.title
-{
+  .title {
     font-family: "Avenir Black";
     color: white;
     font-size: 22.18px;
     line-height: 22.18px;
-  padding-top: 20.79px;
-  letter-spacing: -0.69px;
-
-
-}
-.title1
-{
+    padding-top: 20.79px;
+    letter-spacing: -0.69px;
+  }
+  .title1 {
     width: 222.45px;
-    margin-right: 1.0rem;
-}
-.prime
-{
-    margin-left: 1.0rem;
-    margin-top: 2.0rem;
-}
-.desc 
-{
+    margin-right: 1rem;
+  }
+  .taxi {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .prime {
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+  .desc {
     font-family: "book";
     width: 320.86px;
-    font-size: 1.0rem;
-    margin-left: 1.0rem;
+    font-size: 1rem;
+    margin-left: 1rem;
     margin-top: 8.6px;
-    line-height: 1.0rem;
-    letter-spacing: -1.0px;
+    line-height: 1rem;
+    letter-spacing: -1px;
     color: white;
-}
-.tesla 
-{
+  }
+  .tesla {
     margin-left: 41px;
     margin-top: 21px;
     width: 47.85px;
     height: 47.85px;
-}
-.um 
-{
+  }
+  .um {
     width: 77px;
     height: 56px;
     margin-left: 20px;
     margin-top: 10px;
-}
-.howstat
-{
+  }
+  .howstat {
     width: 100px;
     height: 16px;
     margin-left: 17px;
     margin-top: 35px;
-}
-.spendo 
-{
+  }
+  .spendo {
     width: 100px;
     height: 46px;
     margin-left: 17px;
     margin-top: 23px;
-}
-.xpense 
-{
+  }
+  .xpense {
     width: 50px;
     height: 50px;
     margin-left: 34px;
     margin-top: 14px;
-}
-.proj 
-{
+  }
+  .proj {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -702,11 +598,10 @@ margin-top: -20%;
     height: 139px;
     margin-bottom: 8px;
     width: 95;
-}
-/*RESUME*/
+  }
+  /*RESUME*/
 
-.resumeImg
-{
+  .resumeImg {
     width: 50%;
     height: 50%;
     display: block;
@@ -715,147 +610,128 @@ margin-top: -20%;
     margin-bottom: 0%;
     margin-top: -20%;
     padding-top: 0%;
-}
-.resumeTitle
-{
+  }
+  .resumeTitle {
     font-size: 1.5rem;
-}
-.resumeStarts
-{
+  }
+  .resumeStarts {
     margin-top: 0%;
-}
-.resumeScroll
-{
+  }
+  .resumeScroll {
     margin-top: 0%;
-}
-.scrolldown
-{
-    font-size: 1.0rem;
+  }
+  .scrolldown {
+    font-size: 1rem;
     letter-spacing: -0.6px;
-}
-.univ
-{
+  }
+  .univ {
     font-size: 22.8px;
     line-height: 22.8px;
-}
-.skills
-{
-margin-right: 0.5rem;
-}
+  }
+  .skills {
+    margin-right: 0.5rem;
+  }
 
+  /*ABOUT*/
 
-/*ABOUT*/
-
-.about
-{
-    margin-top: 2.0rem;
-}
-.aboutImg 
-{
+  .about {
+    margin-top: 2rem;
+  }
+  .aboutImg {
     width: 253px;
     height: 46px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
-}
-.aboutdesc
-{
+  }
+  .aboutdesc {
     margin: 0 auto;
     font-size: 19.2px;
     letter-spacing: -1.5px;
     line-height: 19.2px;
     text-align: center;
     width: 322px;
-}
+  }
 
-.touchImg
-{
+  .touchImg {
     width: 315px;
     height: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-.con 
-{
+  }
+  .con {
     font-size: 19.2px;
     line-height: 19.2px;
     letter-spacing: -0.6px;
-}
-.social
-{
-   font-size: 2.0rem;
-}
-
+  }
+  .social {
+    font-size: 2rem;
+  }
 }
 
-
-
-@media (min-width: 768px) and (max-width: 991.98px) 
-{
-    .navbar 
-    {
-        display: none;
-    }
-    .scroll 
-    {
-        display: none;
-    }
-    .cd-section:nth-child(2), .cd-section:nth-child(3), .cd-section:nth-child(4)
-    {
-        display: none;
-    }
-    .cd-section:nth-child(1) {
-        /* background-image: linear-gradient(
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar {
+    display: none;
+  }
+  .scroll {
+    display: none;
+  }
+  .cd-section:nth-child(2),
+  .cd-section:nth-child(3),
+  .cd-section:nth-child(4) {
+    display: none;
+  }
+  .cd-section:nth-child(1) {
+    /* background-image: linear-gradient(
             rgba(0, 0, 0, 0.70), 
             rgba(0, 0, 0, 0.70)
           ), url("images/bokeh.jpg"); */
-    
-          background-image: none;
-          background: #ffd89b;  /* fallback for old browsers */
-          background: -webkit-linear-gradient(to top, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
-          background: linear-gradient(to top, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-          
-          
 
-          min-height: 100vh;
-        background-attachment: fixed;
-        
-      }
-  .myName
-  {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 0%;
-      margin-bottom: 0%;
-      padding-bottom: 0%;
-      width: 50%;
+    background-image: none;
+    background: #ffd89b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #19547b,
+      #ffd89b
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to top,
+      #19547b,
+      #ffd89b
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    min-height: 100vh;
+    background-attachment: fixed;
   }
-  .iam 
-  {
-      font-size: 2.0rem;
-      text-align: left;
-      padding-left: 20%;
-      margin-bottom: -10%;
+  .myName {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    width: 50%;
   }
-  .asp 
-  {
-      font-family: 'book';
-      text-align: center;
-      margin-top: -5%;
+  .iam {
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 20%;
+    margin-bottom: -10%;
   }
-  .name
-  {
-      display: block;
-      width: 75%;
-      height: 75%;
-      margin: 0 auto;
-      margin-top: -5%;
+  .asp {
+    font-family: "book";
+    text-align: center;
+    margin-top: -5%;
   }
-  .lname
-  {
+  .name {
+    display: block;
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    margin-top: -5%;
+  }
+  .lname {
     display: block;
     width: 75%;
     height: 75%;
@@ -864,24 +740,19 @@ margin-right: 0.5rem;
     margin-bottom: 0%;
     padding-bottom: 0%;
   }
-  .avatarPic
-  {
-      border: 5px solid white;
-      display: block;
-      margin: 0 auto;
-      margin-top: 20%;
-      width: 20.0rem;
-      height: 20.0rem;
-      border-radius: 50%;
-  
+  .avatarPic {
+    border: 5px solid white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20%;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
   }
-    .tabMode 
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
+  .tabMode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
 }
-
-
