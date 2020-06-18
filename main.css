@@ -163,7 +163,8 @@ body {
 }
 
 .proj {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
+
   border-radius: 22px;
   height: 12.5rem;
   width: 100%;
@@ -253,7 +254,7 @@ a .univ:hover {
   color: white;
 }
 .resumeBG {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 22px;
   width: 100%;
   padding-top: 1rem;
