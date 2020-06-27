@@ -191,6 +191,7 @@ a .scroll {
   margin-top: 2rem;
   margin-left: 2rem;
 }
+
 .prime {
   margin-left: 1.5rem;
   margin-top: 3rem;
@@ -331,6 +332,56 @@ a:hover {
   display: none;
 }
 
+/*PROJECT PAGE */
+.projectPage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/projbg.jpeg");
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.projImage {
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid white;
+  border-radius: 2rem;
+}
+
+.taxiProj {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.projTitle {
+  display: block;
+  font-family: "avenir";
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.projDesc {
+  font-family: "book";
+  line-height: 1rem;
+  letter-spacing: -1px;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: white;
+}
+
+.moreProj {
+  margin-bottom: 0;
+}
+.projcontentPage {
+  margin-top: 1rem;
+}
+
+.backButt {
+  margin-right: 1rem;
+}
 /*RESPONSIVENESS */
 
 @media (max-width: 576px) {
@@ -671,6 +722,32 @@ a:hover {
   }
   .social {
     font-size: 2rem;
+  }
+
+  /*PROJECT PAGE*/
+
+  .taxiProj {
+    display: block;
+    margin: 0 auto;
+    margin-top: -4rem;
+  }
+  .projTitle {
+    display: block;
+    font-family: "avenir";
+    font-weight: bold;
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .projDesc {
+    font-family: "book";
+    letter-spacing: -1px;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: white;
   }
 }
 
