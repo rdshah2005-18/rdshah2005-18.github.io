@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   text-transform: lowercase;
@@ -157,6 +158,10 @@ a .scroll {
   padding-bottom: 22px;
 }
 
+.projNext {
+  margin-bottom: -20%;
+}
+
 .projcontent {
   margin-top: 4.5rem;
 }
@@ -227,6 +232,10 @@ a .scroll {
   margin-left: 54px;
   margin-top: 24px;
 }
+.billin {
+  margin-left: 34px;
+  margin-top: 24px;
+}
 
 /*RESUME */
 .resumeImg {
@@ -235,8 +244,7 @@ a .scroll {
 }
 .resumeStarts {
   margin-top: 3.3rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0%;
+  margin-bottom: -20%;
 }
 .resumeScroll {
   margin-top: 0%;
@@ -569,6 +577,20 @@ a:hover {
   }
 
   /*PROJECTS */
+
+  .freelanceContent {
+    margin-bottom: 2rem;
+  }
+
+  .freelanceImg {
+    margin-top: -10%;
+    width: 237.5px;
+    height: 47px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+  }
   .projImg {
     width: 210px;
     height: 58px;
@@ -576,10 +598,14 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0%;
-    margin-top: -20%;
   }
   .projcontent {
+    display: block;
     margin-top: 1rem;
+  }
+
+  .projNext {
+    margin-bottom: -10%;
   }
 
   .title {
@@ -644,6 +670,12 @@ a:hover {
     margin-left: 34px;
     margin-top: 14px;
   }
+  .billin {
+    width: 70%;
+    height: 70%;
+    margin-left: 18px;
+    margin-top: 14px;
+  }
   .proj {
     display: block;
     margin-left: auto;
@@ -662,7 +694,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0%;
-    margin-top: -20%;
+    margin-top: -10%;
     padding-top: 0%;
   }
   .resumeTitle {
@@ -670,6 +702,7 @@ a:hover {
   }
   .resumeStarts {
     margin-top: 0%;
+    margin-bottom: -10%;
   }
   .resumeScroll {
     margin-top: 0%;
