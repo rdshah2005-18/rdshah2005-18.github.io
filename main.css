@@ -232,6 +232,10 @@ a .scroll {
   margin-left: 54px;
   margin-top: 24px;
 }
+.divvi {
+  margin-left: 24px;
+  margin-top: 44px;
+}
 .billin {
   margin-left: 34px;
   margin-top: 24px;
@@ -669,6 +673,12 @@ a:hover {
     height: 50px;
     margin-left: 34px;
     margin-top: 14px;
+  }
+  .divvi {
+    width: 80%;
+    height: 35%;
+    margin-left: 22px;
+    margin-top: 34px;
   }
   .billin {
     width: 70%;
