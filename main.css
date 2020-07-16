@@ -803,7 +803,9 @@ a:hover {
     font-size: 0.75rem;
     text-align: center;
   }
-
+  .projImage {
+    border-radius: 1rem;
+  }
   .projDesc {
     font-family: "book";
     letter-spacing: -1px;
