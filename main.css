@@ -163,7 +163,10 @@ a .scroll {
 }
 
 .projcontent {
-  margin-top: 4.5rem;
+  margin-top: 3rem;
+}
+.casestudycontent {
+  margin-top: 2rem;
 }
 
 .proj {
@@ -217,8 +220,10 @@ a .scroll {
   margin-top: 30px;
 }
 .um {
-  margin-left: 24px;
-  margin-top: 15px;
+  margin-left: 34px;
+  width: 70%;
+  height: 40%;
+  margin-top: 35px;
 }
 .howstat {
   margin-left: 24px;
@@ -357,6 +362,22 @@ a:hover {
   max-height: 100%;
   border: 2px solid white;
   border-radius: 2rem;
+}
+
+.introSection {
+  border-bottom: none;
+  border-bottom-left-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+}
+.otherSection {
+  border-radius: 0%;
+  border-top: none;
+  border-bottom: none;
+}
+.endSection {
+  border-top: none;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
 }
 
 .taxiProj {
@@ -588,6 +609,15 @@ a:hover {
 
   .freelanceImg {
     margin-top: -10%;
+    width: 274px;
+    height: 62px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -3%;
+  }
+  .freelanceImg2 {
+    margin-top: 2%;
     width: 237.5px;
     height: 47px;
     display: block;
@@ -651,10 +681,10 @@ a:hover {
     height: 47.85px;
   }
   .um {
-    width: 77px;
-    height: 56px;
-    margin-left: 20px;
-    margin-top: 10px;
+    width: 70%;
+    height: 40%;
+    margin-left: 25px;
+    margin-top: 25px;
   }
   .howstat {
     width: 100px;
@@ -806,6 +836,22 @@ a:hover {
   .projImage {
     border-radius: 1rem;
   }
+  .introSection {
+    border-bottom: none;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+  }
+  .otherSection {
+    border-radius: 0%;
+    border-top: none;
+    border-bottom: none;
+  }
+  .endSection {
+    border-top: none;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+  }
+
   .projDesc {
     font-family: "book";
     letter-spacing: -1px;
