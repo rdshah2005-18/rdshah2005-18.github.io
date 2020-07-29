@@ -14,18 +14,38 @@
         <script src="https://kit.fontawesome.com/ec0995935b.js" crossorigin="anonymous"></script>
      <!--CSS-->
      <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="animations.css">
 
 
 
     </head>
     <body>
-
+        
       
-        <section class = "cd-section cd-section--bg-fixed" id = "home">
-
-           
+        <section class = "cd-section cd-section--bg-fixed animatedParent animateOnce" id = "home">
+            <div class="sidenav animated  fadeInRight slowest">
+                <a class="navbar-brand" href="#home"><img src="images/logo.png" width="54px" height="28px"></a>
+               
+                <ul class = "navbar-nav">
+                    <li class="nav-item sidebar-item">
+                      <a class="nav-link" href="#home">home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item sidebar-item">
+                      <a class="nav-link" href="#projects">projects</a>
+                    </li>
+                    <li class="nav-item sidebar-item">
+                        <a class="nav-link" href="#resume">synopsis</a>
+                      </li>
+                      <li class="nav-item sidebar-item">
+                        <a class="nav-link" href="#contact">contact</a>
+                      </li>
+                    
+                  </ul>
+              </div>
+            <!-- <img src = "images/portrait.jpg" class = "portrait"> -->
+          
             <!--NAVIGATION-->
-            <nav class="navbar fixed-top navPer navbar-expand-lg d-none d-lg-block">
+            <!-- <nav class="navbar fixed-top navPer navbar-expand-lg d-none d-lg-block">
                 <div class = "container">
                 <a class="navbar-brand" href="#home"><img src="images/logo.png" width="68px" height="31px"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +82,8 @@
                  
                 </div>
             
-              </nav>
+              </nav> -->
+           
 
               <nav class="navbar fixed-bottom navPer navbar-expand-lg d-md-none">
                 <div class = "container">
@@ -109,17 +130,17 @@
               <!--HOME PAGE STARTS-->
 
               <div class="row">
-                  <div class="col-lg-6 col-md-12 col-sm-12 empty">
+                  <!-- <div class="col-lg-6 col-md-12 col-sm-12 empty">
 
-                  </div>
-                  <div class="col-lg-6 col-md-12 col-sm-12">
-                       <img src="images/homemob.jpeg" class = "avatarPic"><br>
+                  </div> -->
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                       <img src="images/portrait.jpg" class = "avatarPic"><br>
                     <div class="myName">
                        
-                        <p class="iam">i am</p>
-                        <img src = "images/rohan.png" width="452px" height="142px" class = "name" alt = "Rohan"><br>
-                        <img src = "images/shah.png" width="364px" height="142px" class = "lname" alt = "Shah"><br>
-                        <p class="asp">aspiring ui/ux designer</p>
+                        <p class="iam animated fadeInDown slowest">i am</p><br>
+                        <img src = "images/rohan.png" width="452px" height="142px" class = "name animated fadeInLeft slowest" alt = "Rohan"><br>
+                        <img src = "images/shah.png" width="364px" height="142px" class = "lname animated fadeInRight slowest" alt = "Shah"><br>
+                        <p class="asp animated fadeInUp slowest">ui/ux and web designer</p>
                     </div>
                     <div class = "tabMode">
                         <p class="desc tabMode">tablet mode coming soon! meanwhile check out my social media profiles to get more insight!</p>
@@ -132,17 +153,18 @@
 
               </div>
            
-              <a href="#projects" class="scroll"><i class="fas fa-chevron-down scroll" title = "scroll down"></i></a>
+              <a href="#projects"><i class="fas fa-chevron-down scrollHome" title = "scroll down"></i></a>
 
             </div>
+        </div>
         </section>
 
 
          <!-- PROJECTS -->
         <section class = "cd-section">
-            <div class="container projects" id = "projects">
-                <img src = "images/casestudy.png" class="freelanceImg">
-                <div class="row projcontent casestudycontent">
+            <div class="container projects animatedParent" id = "projects">
+                <img src = "images/casestudy.png" class="freelanceImg  animated fadeInLeft slowest">
+                <div class="row projcontent casestudycontent animated fadeInLeft slowest">
                          <!--CASE STUDY 1  -->
                    <!--PROJECT 3 -->
                    <div class="col-lg-6 col-md-12 col-sm-12" style="cursor: pointer;" onclick="window.open('um-casestudy.html', '_self');">
@@ -166,11 +188,11 @@
                      
 
                     </div>
-                <img src = "images/freelance.png" class="freelanceImg2">
+                <img src = "images/freelance.png" class="freelanceImg2 animated fadeInLeft slowest">
                 <div class="row projcontent">
                          <!--FREELANCE 2  -->
                          <div class="col-lg-6 col-md-12 col-sm-12" style="cursor: pointer;" onclick="window.open('https://www.divvi.media')">
-                            <div class="proj">
+                            <div class="proj animated fadeInLeft slowest">
                                 <div class="row">
                                     <div class="col-lg-4 col-sm-4 col-4">
                                         <img src="images/divvi.png" height="33.8px" width="143.8px" class="divvi">
@@ -189,7 +211,7 @@
                         </div>
                          <!--FREELANCE 1  -->
                          <div class="col-lg-6 col-md-12 col-sm-12" style="cursor: pointer;" onclick="window.open('https://www.behance.net/gallery/100067527/Billin-Easy')">
-                            <div class="proj">
+                            <div class="proj animated fadeInRight slowest">
                                 <div class="row">
                                     <div class="col-lg-4 col-sm-4 col-4">
                                         <img src="images/billin.png" height="65px" width="106.5px" class="billin">
@@ -209,13 +231,13 @@
 
                     </div>
 
-                <img src = "images/projects.png" class="projImg">
+                <img src = "images/projects.png" class="projImg animated fadeInLeft slowest">
 
                 <div class="row projcontent projNext">
 
                        <!--PROJECT 7 -->
                        <div class="col-lg-6 col-md-12 col-sm-12" style="cursor: pointer;" onclick="window.open('taxi.html','_self')">
-                        <div class="proj">
+                        <div class="proj animated fadeInLeft slowest">
                             <div class="row">
                                 <div class="col-lg-4 col-sm-4 col-4">
                                     <img src="images/taxi.png" height="42px" width="93px" class="taxi">
@@ -235,7 +257,7 @@
 
                     <!--PROJECT 1 -->
                     <div class="col-lg-6 col-md-12 col-sm-12" style="cursor: pointer;" onclick="window.open('prime.html', '_self');">
-                        <div class="proj">
+                        <div class="proj animated fadeInRight slowest">
                             <div class="row">
                                 <div class="col-lg-4 col-sm-4 col-4">
                                     <img src="images/prime.png" height="42.9px" width="139.1px" class="prime">
@@ -254,7 +276,7 @@
                     </div>
                  <!--PROJECT 2 -->
                  <div class="col-lg-6 col-md-12 col-sm-12" style="cursor: pointer;" onclick="window.open('tesla.html', '_self');">
-                    <div class="proj">
+                    <div class="proj animated fadeInLeft slowest">
                         <div class="row">
                             <div  class="col-lg-4 col-sm-4 col-4">
                                 <img src="images/tesla.png" height="69px" width="69px" class="tesla">
@@ -276,7 +298,7 @@
 
                         <!--PROJECT 4 -->
                         <div class="col-lg-6 col-md-12 col-sm-12" style="cursor: pointer;" onclick="window.open('howstat.html','_self');">
-                            <div class="proj">
+                            <div class="proj animated fadeInRight slowest">
                                 <div class="row">
                                     <div  class="col-lg-4 col-sm-4 col-4">
                                         <img src="images/howstat.png" height="24px" width="144px" class="howstat">
@@ -296,7 +318,7 @@
 
                             <!--PROJECT 5 -->
                     <div class="col-lg-6 col-md-12 col-sm-12" style="cursor: pointer;" onclick="window.open('spendo.html','_self');">
-                        <div class="proj">
+                        <div class="proj animated fadeInLeft slowest">
                             <div class="row">
                                 <div  class="col-lg-4 col-sm-4 col-4">
                                     <img src="images/Light Logo.png" height="60px" width="144px" class="spendo">
@@ -316,7 +338,7 @@
 
                         <!--PROJECT 6 -->
                         <div class="col-lg-6 col-md-12 col-sm-12" style="cursor: pointer;" onclick="window.open('http://xpense.us-east-1.elasticbeanstalk.com');">
-                            <div class="proj">
+                            <div class="proj animated fadeInRight slowest">
                                 <div class="row">
                                     <div  class="col-lg-4 col-sm-4 col-4">
                                         <img src="images/xpense.png" height="76px" width="76px" class="xpense">
@@ -345,13 +367,13 @@
 
         <!--RESUME-->
         <section class = "cd-section" id="resume">
-            <div class="container projects" id = "projects">
+            <div class="container projects animatedParent" id = "projects">
                 <img src = "images/synopsis.png" class="resumeImg"> <br>
               
                 <div class="row resumeStarts">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <span class="resumeTitle">education</span> <br>
-                        <div class="resumeBG">
+                        <div class="resumeTitle animated fadeInLeft slowest">education</div> 
+                        <div class="resumeBG animated fadeInLeft slowest">
                             <span class="univ">stevens institute of technology, hoboken, united states of america</span><br>
                             <div class="row">
                                 <div class="col-lg-9 col-md-9 .col-sm-9 .col-9">
@@ -363,7 +385,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="resumeBG">
+                        <div class="resumeBG animated fadeInLeft slowest">
                             <span class="univ">kj somaiya college of engineering, mumbai, india</span><br>
                             <div class="row">
                                 <div class="col-lg-9 col-md-9 .col-sm-9 .col-9">
@@ -375,8 +397,8 @@
                                 </div>
                             </div>
                         </div>
-                        <span class="resumeTitle">skills</span> <br>
-                        <div class="resumeBG">
+                        <div class="resumeTitle animated fadeInLeft slowest">skills</div> 
+                        <div class="resumeBG animated fadeInLeft slowest">
                             <i class="fab fa-sketch skills" title="sketch app"></i>
                             <i class="fab fa-html5 skills" title = "html5"></i>
                             <i class="fab fa-css3-alt skills" title = "css3"></i>
@@ -387,8 +409,8 @@
                             <i class="fab fa-java skills" title="java"></i>
                 
                         </div>
-                        <span class="resumeTitle">experience</span> <br>
-                        <div class="resumeBG">
+                        <div class="resumeTitle animated fadeInLeft slowest">experience</div>
+                        <div class="resumeBG animated fadeInLeft slowest">
                             <span class="univ">automatic data processing (adp)</span><br>
                             <div class="row">
                                 <div class="col-lg-7 col-md-7 .col-sm-7 .col-7">
@@ -411,8 +433,8 @@
 
                             </div>
 
-                            <span class="resumeTitle">publications</span> <br>
-                            <div class = "resumeBG">
+                            <div class="resumeTitle animated fadeInLeft slowest">publications</div> 
+                            <div class = "resumeBG animated fadeInLeft slowest">
                                 <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3356271"><span class="univ">liv2eat: a cross platform application to digitalize the college canteen using firebase</span></a><br>
                                 <div class="row">
                                     <div class="col-lg-7 col-md-7 .col-sm-7 .col-7">
@@ -435,8 +457,8 @@
 
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <span class="resumeTitle">projects</span> <br>
-                        <div class="resumeBG">
+                        <div class="resumeTitle animated fadeInRight slowest">projects</div> 
+                        <div class="resumeBG animated fadeInRight slowest">
                             <span class="univ">xpense</span><br>
                             <div class="row">
                                 <div class="col-lg-7 col-md-7 .col-sm-7 .col-7">
@@ -458,7 +480,7 @@
 
                             </div>
 
-                            <div class="resumeBG">
+                            <div class="resumeBG animated fadeInRight slowest">
                                 <span class="univ">uncovered media</span><br>
                                 <div class="row">
                                     <div class="col-lg-7 col-md-7 .col-sm-7 .col-7">
@@ -479,7 +501,7 @@
                                 </ul>
     
                                 </div>
-                                <div class="resumeBG">
+                                <div class="resumeBG animated fadeInRight slowest">
                                     <span class="univ">liv2eat: digital canteen system</span><br>
                                     <div class="row">
                                         <div class="col-lg-7 col-md-7 .col-sm-7 .col-7">
@@ -508,23 +530,24 @@
 
          
         </section>
-        <section class = "cd-section" id="contact">
+        <section class = "cd-section" >
+            <div class="container animatedParent" id = "contact">
             <div class="row">
-                <div class="col-lg-6" class = "empty">
-
-                </div>
+                
                 <div class="col-lg-6">
                     <div class="about">
-                        <img src = "images/ABOUT.png" class = "aboutImg" alt="about"> <br>
-                        <p class="aboutdesc">i am a graduate student, available for opportunities in ui/ux roles <br><br>
+                        <img src = "images/ABOUT.png" class = "aboutImg animated fadeInLeft slowest" alt="about"> <br>
+                        
+                        <p class="aboutdesc animated fadeInRight slowest">i am a graduate student, available for opportunities in ui/ux and web design roles <br><br>
 
                             i love cricket, movies and music. my guilty pleasure is dancing to cheesy hindi songs <br><br>
                             
                             found my passion for ui/ux after years of front-end development. now there’s no looking back</p>
+                       
                     </div>
                     <div class = "contact">
-                        <img src = "images/getintouch.png" class="touchImg" alt="get in touch"> <br>
-                        <p class="aboutdesc">
+                        <img src = "images/getintouch.png" class="touchImg animated fadeInLeft slowest" alt="get in touch"> <br>
+                        <p class="aboutdesc animated fadeInRight slowest">
                             <span class = "con">email: </span> rshah78@stevens.edu <br>
                             <span class = "con">phone: </span> 503-413-0180<br><br>
                             <a href = "https://www.instagram.com/rdshah2005/" target="_blank"><i class="fab fa-instagram social" title="instagram"></i></a>
@@ -535,6 +558,10 @@
                         </p>
                     </div>
                 </div>
+                <div class="col-lg-6" class = "empty">
+
+                </div>
+            </div>
             </div>
         </section>
 
@@ -545,7 +572,38 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="css3-animate-it.js"></script>
         <script src="" async defer></script>
 
+        <script>
+            var images = ["images/newBg.png", "images/newBg2.png"];
+            var images2 = ["images/mobile/newBg.png","images/mobile/newBg2.png"];
+            
+            var imageHead = document.getElementById("home");
+var i = 0;
+w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
+var targetWidth = 768;
+if ( w >= targetWidth) {     
+setInterval(function() {
+      imageHead.style.backgroundImage = "url(" + images[i] + ")";
+      i = i + 1;
+      if (i == images.length) {
+      	i =  0;
+      }
+}, 2000);
+}
+else {
+    setInterval(function() {
+      imageHead.style.backgroundImage = "url(" + images2[i] + ")";
+      i = i + 1;
+      if (i == images2.length) {
+      	i =  0;
+      }
+}, 2000);
+
+}
+
+
+        </script>
     </body>
 </html>
