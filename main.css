@@ -602,7 +602,7 @@ a:hover {
     background-size: cover;
 
     height: 100%;
-
+    box-sizing: content-box;
     overflow: hidden;
     /* 
     background-image: none;
