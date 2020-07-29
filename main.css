@@ -599,7 +599,7 @@ a:hover {
   .cd-section:nth-child(1) {
     background-image: url("images/mobile/newBg.png");
 
-    background-size: 414px 896px;
+    background-size: cover;
 
     height: 100%;
 
@@ -613,7 +613,6 @@ a:hover {
     height: 100%;*/
 
     min-height: 100vh;
-    background-attachment: fixed;
   }
 
   /* .homeBG 
