@@ -611,7 +611,7 @@ a:hover {
     background: linear-gradient(to bottom, #19547b, #ffd89b);
 
     height: 100%;*/
-
+    background-attachment: scroll;
     min-height: 100vh;
   }
 
