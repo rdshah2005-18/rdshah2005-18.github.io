@@ -574,7 +574,7 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    margin-top: 1rem;
     margin-bottom: -1rem;
     width: 226px;
     height: 71px;
@@ -599,7 +599,7 @@ a:hover {
   .cd-section:nth-child(1) {
     background-image: url("images/mobile/newBg.png");
 
-    background-size: contain;
+    background-size: 414px 896px;
 
     height: 100%;
 
