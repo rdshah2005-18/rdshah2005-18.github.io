@@ -567,8 +567,8 @@ a:hover {
   }
   .iam {
     font-size: 1.5rem;
-    margin-bottom: -10%;
-    margin-left: 20%;
+    margin-bottom: -6%;
+    margin-left: 25%;
   }
   .name {
     display: block;
@@ -599,7 +599,7 @@ a:hover {
   .cd-section:nth-child(1) {
     background-image: url("images/mobile/newBg.png");
 
-    background-size: cover;
+    background-size: contain;
 
     height: 100%;
 
