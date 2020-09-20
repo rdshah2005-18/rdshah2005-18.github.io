@@ -211,12 +211,14 @@ body {
 
 a .scroll {
   display: block;
+  visibility: hidden;
   text-align: center;
 
   margin-top: 17.75rem;
   font-size: 1.5rem;
 }
 a .scrollHome {
+  visibility: hidden;
   display: block;
   text-align: center;
   font-size: 1.5rem;
@@ -309,6 +311,10 @@ a .scrollHome {
 .xpense {
   margin-left: 54px;
   margin-top: 24px;
+}
+.hsd {
+  margin-left: 24px;
+  margin-top: 34px; 
 }
 .divvi {
   margin-left: 24px;
@@ -531,12 +537,14 @@ a:hover {
     color: white;
   }
   a .scroll {
+    visibility: hidden;
     display: block;
     text-align: center;
     margin-top: 5rem;
     font-size: 1.5rem;
   }
   a .scrollHome {
+    visibility: hidden;
     display: block;
     text-align: center;
     margin-top: 25rem;
@@ -791,6 +799,12 @@ a:hover {
     height: 50px;
     margin-left: 34px;
     margin-top: 14px;
+  }
+  .hsd {
+    width: 80%;
+    height: 55%;
+    margin-left: 22px;
+    margin-top: 24px;
   }
   .divvi {
     width: 80%;
