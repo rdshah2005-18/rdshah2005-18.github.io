@@ -57,6 +57,7 @@ body {
 .navPer {
   background: none;
 }
+
 .nav-item {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -877,6 +878,9 @@ a:hover {
   }
   .nav {
     margin: 0px auto;
+  }
+  .projNav {
+    padding-top: 1.0rem !important;
   }
   .navbar {
     background: rgba(0, 0, 0, 0.8);
