@@ -1,11 +1,13 @@
 @font-face {
-  font-family: "avenir";
-  src: url("./Avenir.ttc");
+  font-family: "mont";
+  font-weight: 900;
+  src: url("./Montserrat-Bold.ttf");
 }
 
 @font-face {
-  font-family: "book";
-  src: url("./AvenirLTStd-Book.otf");
+  font-family: "mont";
+  font-weight: 400;
+  src: url("./Montserrat-Regular.ttf");
 }
 
 html {
@@ -14,8 +16,8 @@ html {
 }
 body {
   text-transform: lowercase;
-  font-family: "avenir";
-  font-weight: 900;
+  font-family: "mont";
+  font-weight: 400;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -23,33 +25,31 @@ body {
 }
 
 .sidenav {
-  height: 100%;
-  width: 80px;
+ 
+  width: 100%;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: none;
+  z-index: 5;
+  /* top: 0;
+  right: 0; */
+  background-color: #161616;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 0px;
   color: white;
 }
 .sidebar-item {
-  transform: rotate(90deg);
-  width: 97px;
+  /* transform: rotate(90deg); */
+  /* width: 97px; */
   margin-bottom: 160px;
 }
 
-.sidenav ul {
-  margin-top: 120px;
-}
+
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
   color: white;
-  display: block;
+  /* display: block; */
 }
 
 /* NAVIGATION */
@@ -58,9 +58,12 @@ body {
   background: none;
 }
 .nav-item {
-  margin-right: 5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   font-size: 1.5rem;
+  font-weight: 400;
   color: white;
+  padding: 16px 0px;
 }
 .nav-link {
   color: white;
@@ -86,54 +89,62 @@ body {
 
 /* backgrounds */
 
+.pngImg {
+ position: absolute;
+  bottom: 0;
+  left: 0;
+    /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  z-index: 0;
+}
 .cd-section:nth-child(1) {
-  /* background-image: linear-gradient(
-      148deg,
-      rgba(53, 150, 197, 0.5) 16%,
-      rgba(0, 0, 0, 0.5) 92%
-    ),
-    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)); */
-  background-color: linear-gradient(
-    148deg,
-    rgba(53, 150, 197, 0.5) 16%,
-    rgba(0, 0, 0, 0.5) 92%
-  );
-  background-image: url("images/newBg.png");
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(#161616, #161616);
+  /* background-image: url("images/newBg.png"); */
   min-height: 100vh;
   scroll-behavior: smooth;
+  z-index: 0;
 }
 
 .cd-section:nth-child(2) {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/projects.jpg"); */
-  /*only blue*/
-  /* background-image: linear-gradient(192deg, #0f2a36 42%, #226d6c 100%);  */
-  /* 
-  background-image: linear-gradient(192deg, #0f2a36 51%, #6d2222 27%); */
-  background-image: linear-gradient(192deg, #0f2a36 42%, #6d2222 100%);
-  /*red also */
+  min-height: 500px; 
+  background-color: #161616;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(#161616, #161616);
   min-height: 100vh;
   scroll-behavior: smooth;
-  /* background-attachment: fixed; */
+  z-index: 2;
 }
 .cd-section:nth-child(3) {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/resumebg.jpg"); */
   /* background-image: linear-gradient(166deg, #6d2222 51%, #0f2a36 27%); */
-  background-image: linear-gradient(166deg, #6d2222 29%, #0f2a36 73%);
-
+  min-height: 500px; 
+  background-color: #161616;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(#161616, #161616);
   min-height: 100vh;
   scroll-behavior: smooth;
-  /* background-attachment: fixed; */
-}
-
-.cd-section:nth-child(4) {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/aboutpage.jpeg"); */
-  /* background-image: linear-gradient(189deg, #0f2a36 51%, #22c1bc 27%); */
-  background-image: linear-gradient(189deg, #0f2a36 51%, #22c1bc 97%);
-  min-height: 100vh;
-  scroll-behavior: smooth;
+  z-index: 6;
   /* background-attachment: fixed; */
 }
 
@@ -173,14 +184,118 @@ body {
   display: none;
 }
 .iam {
-  margin-left: 39%;
-  margin-top: 10%;
-  font-size: 3rem;
-  letter-spacing: -1.5px;
-  font-weight: 100;
-  left: 600px;
-  bottom: 200px;
-  color: white;
+  text-align: right;
+  font-size: 3.0rem;
+  font-weight: 400;
+  letter-spacing: -5;
+  color: #f8f8f8;
+  margin-bottom: -40px;
+}
+.regular {
+  text-align: right;
+
+  font-size: 200px;
+  line-height: 160px;
+  letter-spacing: -15px;
+  font-weight: 700;
+  color: #f8f8f8;
+}
+.outlined {
+  -webkit-text-stroke: 5px #f8f8f8;
+
+  text-align: right;
+  font-size: 200px;
+  line-height: 160px;
+  letter-spacing: -15px;
+  font-weight: 700;
+  color: #161616;
+  background: none;
+}
+.outlined2 {
+  -webkit-text-stroke: 2px #f8f8f8;
+  color: #161616;
+  text-align: right;
+  font-size: 200px;
+  line-height: 160px;
+  letter-spacing: -15px;
+  font-weight: 700;
+  background: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: #161616;
+  padding-right: 20%;
+  z-index: 3;
+  -webkit-transition: -webkit-transform 2.8s ease-in-out;
+  -ms-transition: -ms-transform 2.8s ease-in-out;
+  transition: transform 2.8s ease-in-out;  
+}
+.sticky , .mill {
+  margin-top: 40px;
+}
+.sticky, #myHeader {
+  padding-top: 160px;
+  padding-bottom: 40px;
+  -webkit-transition: -webkit-transform 2.8s ease-in-out;
+  -ms-transition: -ms-transform 2.8s ease-in-out;
+  transition: transform 2.8s ease-in-out;  
+}
+#myHeader {
+  padding-top: 80px;
+  z-index: 3;
+}
+#ux:hover {
+  -webkit-text-stroke: 1px #FF944F;
+}
+#pd:hover {
+  -webkit-text-stroke: 1px #ACA4F2;
+}
+#rdsn:hover {
+  -webkit-text-stroke: 1px #ABE1F7;
+}
+#free:hover {
+  -webkit-text-stroke: 1px #CBE6A3;
+}
+.sticky .outlined2 {
+  font-size: 40px;
+  -webkit-text-stroke: 1px #f8f8f8;
+  color: #161616;
+  text-align: right;
+  line-height: 160px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  background: none;
+}
+.sticky .medium {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.sticky + .content {
+padding-top: 400px;
+}
+
+#allwork {
+  color: #f2f2f2;
+  font-size: 40px;
+  margin-top: 16px;
+}
+#allwork:hover{
+  color: #22c1bc;
+}
+
+.sticky #allwork {
+  font-size: 16px;
+  margin-top: 8px;
+}
+.medium {
+  text-align: left;
+  font-size: 5.0rem;
+  letter-spacing: -3px;
+  line-height: 80px;
+  transition: 0.2s;
 }
 .rohan {
   font-size: 7.5rem;
@@ -203,9 +318,8 @@ body {
 }
 .asp {
   font-size: 1.5rem;
-  font-family: "Avenir Heavy";
   color: white;
-  text-align: center;
+  text-align: right;
   font-weight: 400;
 }
 
@@ -226,12 +340,246 @@ a .scrollHome {
 }
 
 /*PROJECTS*/
+.mockupleft {
+transform: rotate(-15deg);
+z-index: 0;
+width: 233px;
+height: 463px;
+margin-left: 40px;
+-webkit-transition: -webkit-transform 1.8s ease-out;
+-ms-transition: -ms-transform 1.8s ease-out;
+transition: transform 1.8s ease-out;  
+}
+/* 233 x 463 */
+/* 932 x 1852 */
+.mockupright {
+  transform: rotate(15deg);
+  z-index: 1;
+  margin-left: -120px;
+  margin-top: 20px;
+  width: 234px;
+height: 463px;
+  -webkit-transition: -webkit-transform 1.8s ease-out;
+  -ms-transition: -ms-transform  1.8s ease-out;
+  transition: transform  1.8s ease-out;  
+  }
 
-.projects {
-  padding-top: 2rem;
-  padding-bottom: 22px;
+  .mill:hover {
+    cursor: pointer;
+  }
+
+  .laptopmockup {
+    display: block;
+    margin: 111px auto;
+    -webkit-transition: -webkit-transform 1.8s ease-in-out;
+    -ms-transition: -ms-transform 1.8s ease-in-out;
+    transition: transform 1.8s ease-in-out;  
+
+  }
+  .mockuprdsn {
+    display: block;
+    width: 233px;
+    height: 463px;
+    margin: 16px auto;
+    -webkit-transition: -webkit-transform 1.8s ease-out;
+    -ms-transition: -ms-transform 1.8s ease-out;
+    transition: transform 1.8s ease-out;  
+    }
+
+    .mill:hover .mockuprdsn, .mockog {
+      z-index: 0;
+      -webkit-transition: -webkit-transform 3.8s ease-in-out;
+      -ms-transition: -ms-transform 3.8s ease-in-out;
+      transition: transform 3.8s ease-in-out;  
+      margin: 16px auto !important;
+  
+    }
+  
+  .mill:hover .laptopmockup, .og {
+    opacity: 0;
+    -webkit-transition: -webkit-transform 3.8s ease-in-out;
+    -ms-transition: -ms-transform 3.8s ease-in-out;
+    transition: transform 3.8s ease-in-out;  
+    margin: 111px auto !important;
+
+  }
+
+  .rd {
+    height: auto;
+    overflow: auto;
+  }
+  .mill:hover .laptopmockup, .redesign {
+    opacity: 1;
+  }
+  .active {
+    color: #22c1bc;
+  }
+  .show {
+    display: block;
+  }
+
+  .mockog {
+    position: absolute;
+    display: block;
+    margin: 16px auto;
+    /* bottom: 111px; */
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    z-index: 2;
+
+  }
+  .mockredesign {
+    position: absolute;
+    display: block;
+    margin: 16px auto;
+    /* bottom: 111px; */
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+  }
+  
+
+  .og {
+    position: absolute;
+    display: block;
+    margin: 111px auto;
+    /* bottom: 111px; */
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 1;
+
+    /* z-index: 2; */
+  }
+  .redesign {
+    position: absolute;
+    display: block;
+    margin: 111px auto;
+    /* bottom: 111px; */
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    /* z-index: 1; */
+  }
+
+
+
+  .mill {
+    display: block;
+    margin-top: 80px;
+  }
+  .centered {
+    display: block;
+    margin: auto 47px;
+  }
+  /* .mill:hover {
+    background-color: #000000;
+    border-radius: 16px;
+  } */
+  .mill:hover .centered {
+    display: block;
+    margin: auto 12px;
+  }
+  .mill:hover .mockupleft {
+    transform: rotate(0deg);
+    z-index: 0;
+    margin-left: 0px;
+    margin-top: 20px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;  
+
+    }
+    .mill:hover  .mockupright {
+      transform: rotate(0deg);
+      z-index: 1;
+      margin-left: 30px;
+      margin-top: 20px;
+      -webkit-transition: -webkit-transform .8s ease-in-out;
+      -ms-transition: -ms-transform .8s ease-in-out;
+      transition: transform .8s ease-in-out;  
+      }
+  
+      .list:hover {
+        cursor: pointer;
+      }
+
+  .mill:hover .cta {
+    opacity: 1;
+  }
+  .logoImg {
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+  }
+
+  #ux:hover {
+    -webkit-text-stroke: 1px #FF944F;
+  }
+
+  #pd:active {
+    -webkit-text-stroke: 1px #ACA4F2;
+  }
+  #pd:hover {
+    -webkit-text-stroke: 1px #ACA4F2;
+  }
+  #rdsn:hover {
+    -webkit-text-stroke: 1px #ABE1F7;
+  }
+  #free:hover {
+    -webkit-text-stroke: 1px #CBE6A3;
+  }
+.tags 
+{
+ font-size: 16px;
+ letter-spacing: 15px;
+ text-transform: uppercase;
+ font-weight: 700;
+ text-align: center;
+ margin-bottom: 16px;
 }
 
+.pd {
+  color: #aca4f2;
+}
+.rdsn {
+  color: #ABE1F7;
+}
+.free {
+  color: #cbe6a3;
+}
+.ux {
+  color: #FF944F;
+}
+.projects {
+  padding-top: 5rem;
+  padding-bottom: 22px;
+  z-index: 2;
+}
+
+.mockupdesktop {
+  display: block;
+  margin: 80px auto;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;  
+
+}
+.mockupdesktop:hover{
+  transform: scale(1.2);
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;  
+}
 .projNext {
   margin-bottom: -20%;
 }
@@ -259,8 +607,9 @@ a .scrollHome {
 }
 
 .title {
-  font-family: "Avenir Black";
+  font-family: "mont";
   color: white;
+  font-weight: 700;
   font-size: 2rem;
   line-height: 2rem;
   padding-top: 30px;
@@ -390,19 +739,21 @@ a .univ:hover {
 /*ABOUT*/
 
 .about {
-  margin-top: 121px;
+  margin-top: -200px;
   margin-bottom: 1.5rem;
 }
 .aboutdesc {
-  font-family: "book";
-  width: 535px;
+  font-family: "mont";
+  width: 100%;
   color: white;
-  font-size: 1.5rem;
-  letter-spacing: -1.5px;
-  line-height: 1.5rem;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  line-height: 29px;
   padding: 0%;
   margin-top: 2rem;
 }
+
 .contact {
   margin-bottom: 4rem;
 }
@@ -435,7 +786,8 @@ a:hover {
 .projectPage {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/projbg.jpeg"); */
-  background-image: linear-gradient(192deg, #0f2a36 42%, #6d2222 100%);
+  background: #161616;
+  z-index: 6;
   min-height: 100vh;
   background-attachment: fixed;
 }
@@ -470,7 +822,7 @@ a:hover {
 }
 .projTitle {
   display: block;
-  font-family: "avenir";
+  font-family: "mont";
   font-weight: bold;
   color: white;
   font-size: 1rem;
@@ -478,18 +830,19 @@ a:hover {
 }
 
 .projDesc {
-  font-family: "book";
-  line-height: 1rem;
+  font-family: "mont";
+  font-weight: 400;
+  line-height: 32px;
   letter-spacing: -1px;
-  text-align: center;
+  text-align: left;
   width: 100%;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+  font-size: 24px;
   color: white;
+  margin: 16px auto;
 }
 
 .moreProj {
-  margin-bottom: 0;
+  margin-bottom: -40px;
 }
 .projcontentPage {
   margin-top: 1rem;
@@ -519,22 +872,42 @@ a:hover {
   }
 
   /*NAVIGATION*/
+  .sidenav {
+    height: 40px;
+  }
+  .nav {
+    margin: 0px auto;
+  }
   .navbar {
-    background: rgba(0, 0, 0, 0.5);
-    padding-bottom: 2rem;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    padding: 0%;
+    padding-bottom: 1rem;
   }
-  .centernav {
-    margin-left: 1rem;
+  .navbar-brand {
+    display: inline;
+    margin: 0px auto;
+    width: 50%;
+    height: 50%;
   }
+  .pngImg {
+  display: none;
+  }
+
   .nav-item {
-    width: 30px;
+
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
+    width: 120px;
     color: white;
+    margin: auto 0px;
+    text-align: center;
   }
   .nav-link {
+
     display: inline-block;
     color: white;
+    font-size: 16px;
   }
   a .scroll {
     visibility: hidden;
@@ -558,13 +931,13 @@ a:hover {
   }
 
   .myName {
-    margin-top: 0%;
+    margin-top: 10%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
-  .avatarPic {
+  /* .avatarPic {
     border: 5px solid white;
     display: none;
     margin: 0 auto;
@@ -572,55 +945,36 @@ a:hover {
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
-  }
+  } */
   .iam {
-    font-size: 1.5rem;
-    margin-bottom: -6%;
-    margin-left: 25%;
+    font-size: 1.0rem;
+    margin-bottom: -3%;
+    margin-left: 20%;
+    text-align: left;
   }
-  .name {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    margin-bottom: -1rem;
-    width: 226px;
-    height: 71px;
-  }
-  .lname {
+  .regular, .outlined {
+    font-size: 80px;
+    line-height: 64px;
+    letter-spacing: -5px;
+    text-align: center;
+   }
+  /* .lname {
     width: 182px;
     height: 71px;
     margin-bottom: -1rem;
-  }
+  } */
   .asp {
-    font-family: "book";
+ margin-top: 0%;
     font-size: 1rem;
+    text-align: center;
   }
   .homeBG {
-    background-image: url("images/mobile/home.jpg");
+    background-image: url("images/mobile/newBg.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     margin: 0;
     padding: 0%;
-  }
-  .cd-section:nth-child(1) {
-    background-image: url("images/mobile/newBg.png");
-
-    background-size: cover;
-
-    height: 100%;
-    box-sizing: content-box;
-    overflow: hidden;
-    /* 
-    background-image: none;
-    background: #19547b;
-    background: -webkit-linear-gradient(to bottom, #19547b, #ffd89b);
-    background: linear-gradient(to bottom, #19547b, #ffd89b);
-
-    height: 100%;*/
-    background-attachment: scroll;
-    min-height: 100vh;
   }
 
   /* .homeBG 
@@ -696,8 +1050,114 @@ a:hover {
 
   /*PROJECTS */
 
+  .sticky {
+    width: 100vw;
+    padding: 0px 16px;
+    overflow-x: hidden;
+  }
+  .sticky, #myHeader {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 0%;
+    -webkit-transition: -webkit-transform 2.8s ease-in-out;
+    -ms-transition: -ms-transform 2.8s ease-in-out;
+    transition: transform 2.8s ease-in-out;  
+  }
+  #myHeader {
+    padding-top: 16px;
+    z-index: 3;
+  }
+
+  .sticky + .content {
+    padding-top: 160px;
+    }
+  .medium {
+    width: 95%;
+    font-size: 36px;
+    letter-spacing: 0px;
+    line-height: 36px;
+  }
+  .outlined {
+    -webkit-text-stroke: 2px #f8f8f8;
+  }
+  .outlined2 {
+    -webkit-text-stroke: 1px #f8f8f8;
+  }
+
+  .sticky .medium {
+    font-size: 20px;
+    line-height: 20px;
+  }
   .projects {
-    padding-top: 4rem;
+    padding-top: 1rem;
+  }
+
+  .mockupleft {
+    width: 116.5px;
+    height: 231.5px;
+    margin-top: 24px;
+  }
+
+  .mockupright {
+    width: 117px;
+    height: 231.5px;
+    margin-left: -60px;
+    margin-top: 8px;
+
+   }
+
+   .mockuprdsn {
+     width: 117px;
+     height: 231.5px;
+   }
+   .mill {
+     margin-top: 24px;
+   }
+   .mill:hover .centered {
+    text-align: center;
+  }
+  .mill:hover .mockupleft{
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+ 
+  }
+  .mill:hover .mockupright{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    margin-left:0px;
+  }
+
+  .tags {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 10px;
+  }
+
+  .laptopmockup {
+    width: 75%;
+    margin: 24px auto;
+
+  }
+  .og {
+    width: 75%;
+    margin: 24px auto;
+  }
+  .redesign {
+    width: 75%;
+  }
+  .mill:hover .laptopmockup, .og{
+    margin: 24px auto !important;
+  }
+
+  .mockupdesktop {
+    width: 75%;
+    margin: 24px auto;
   }
   .freelanceContent {
     margin-bottom: 2rem;
@@ -866,6 +1326,7 @@ a:hover {
 
   .about {
     margin-top: 2rem;
+    margin-bottom: 1rem;
   }
   .aboutImg {
     width: 253px;
@@ -875,11 +1336,11 @@ a:hover {
     margin-right: auto;
   }
   .aboutdesc {
-    margin: 0 auto;
-    font-size: 19.2px;
-    letter-spacing: -1.5px;
-    line-height: 19.2px;
-    text-align: center;
+    margin: 16px auto;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    line-height: 19px;
+    text-align: left;
     width: 322px;
   }
 
@@ -902,8 +1363,9 @@ a:hover {
   /*PROJECT PAGE*/
 
   .projectPage {
-    background-image: linear-gradient(192deg, #0f2a36 42%, #6d2222 100%);
-    height: 100%;
+    background: #161616;
+    padding-top: 80px;
+     height: 100%;
 
     min-height: 100vh;
     background-attachment: fixed;
@@ -915,8 +1377,8 @@ a:hover {
   }
   .projTitle {
     display: block;
-    font-family: "avenir";
-    font-weight: bold;
+    font-family: "mont";
+    font-weight: 700;
     color: white;
     font-size: 0.75rem;
     text-align: center;
@@ -941,13 +1403,17 @@ a:hover {
   }
 
   .projDesc {
-    font-family: "book";
-    letter-spacing: -1px;
-    text-align: center;
+    font-family: "mont";
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    text-align: left;
     width: 100%;
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 16px;
+    line-height: 24px;
     color: white;
+  }
+  .moreProj {
+    margin-bottom: 0px;
   }
 }
 
