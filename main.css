@@ -1055,7 +1055,7 @@ a:hover {
   /*PROJECTS */
 
   .sticky {
-    width: 100vw;
+    width: 90%;
     padding: 0px 16px;
     overflow-x: hidden;
   }
