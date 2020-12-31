@@ -1103,14 +1103,26 @@ a:hover {
   .mockupleft {
     width: 116.5px;
     height: 231.5px;
-    margin-top: 24px;
+    transform: rotate(0deg);
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    text-align: center;
+    margin-top: 20px;
   }
 
   .mockupright {
     width: 117px;
     height: 231.5px;
-    margin-left: -60px;
-    margin-top: 8px;
+    transform: rotate(0deg);
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left:0px;
+  
 
    }
 
@@ -1432,7 +1444,7 @@ a:hover {
     width: 100%;
   }
 }
-@media (min-width: 768px) and (max-width: 1280px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .navbar {
     display: none;
   }
@@ -1481,15 +1493,48 @@ a:hover {
     margin-bottom: 0%;
     padding-bottom: 0%;
   }
+  .centered {
+    margin: auto;
+    text-align: center;
+  }
   .mockupleft {
     width: 174.75px;
 height: 347.25px;    
+transform: rotate(0deg);
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+
+text-align: center;
+margin-top: 20px;
 
   }
   .mockupright {
     width: 175px;
 height: 347.25px;    
 
+transform: rotate(0deg);
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-left:0px;
+
+  }
+  .mill:hover .mockupleft{
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    text-align: center;
+  }
+  .mill:hover .mockupright{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left:0px;
   }
   .laptopmockup {
     width: 75%;
