@@ -470,6 +470,9 @@
         else {
             setInterval(function () {
                 imageHead2.style.backgroundImage = "url(" + images2[i] + ")";
+                imageHeadTes.src = tesImg[i];
+                imageHeadDm.src = dmImg[i];
+                imageHeadPr.src = primeImg[i];
                 i = i + 1;
                 if (i == images2.length) {
                     i = 0;
@@ -486,10 +489,11 @@
         function myFunction() {
             w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
             var targetWidth = 768;
-
+            console.log(window.pageYOffset);
             if (w >= targetWidth) {
-                if (window.pageYOffset > sticky && window.pageYOffset < 4000) {
+                if (window.pageYOffset > sticky && window.pageYOffset < 3800) {
                     header.classList.add("sticky");
+
                 }
 
                 else {
@@ -499,6 +503,8 @@
             else {
                 if (window.pageYOffset > sticky && window.pageYOffset < 3500) {
                     header.classList.add("sticky");
+
+
                 }
                 else {
                     header.classList.remove("sticky");
