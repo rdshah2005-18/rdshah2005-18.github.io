@@ -232,7 +232,39 @@
             <div class="content">
 
                 <div class="row">
-                    <div class="col-lg-6 mill pdsn" onclick="window.open('mill.html', '_self');">
+                    <div class=" col-lg-6 mill pdsn" onclick="window.open('doge.html', '_self');">
+                        <div class="tags pd">| Product Design |</div>
+                        <div class="centered">
+                            <img src="images/New/millenials/mockupleftdoge.png" class="mockupleft">
+                            <img src="images/New/millenials/mockuprightdoge.png" class="mockupright">
+
+                        </div>
+
+                        <!-- <img src="images/New/millenials/milllogo.png" style="display: block;margin: 16px auto;"> -->
+
+                    </div>
+                    <div class="col-lg-6 mill rd" onclick="window.open('amazon.html', '_self');">
+                        <div class="tags rdsn">| Re-Design |</div>
+                        <img src="images/New/millenials/mockupleftamazon.PNG" id="amazon" class="mockuprdsn">
+                        <!-- <img src="images/New/millenials/mockuprightprime.png" class="mockuprdsn mockredesign"> -->
+
+                        <!-- <img src="images/ups.png" class=""> -->
+
+
+                    </div>
+
+                    <div class="col-lg-6 mill rd" onclick="window.open('ups.html', '_self');">
+                        <div class="tags rdsn">| Re-Design |</div>
+                        <img src="images/New/millenials/mockupleftups.png" id="ups" class="mockuprdsn">
+                        <!-- <img src="images/New/millenials/mockuprightprime.png" class="mockuprdsn mockredesign"> -->
+
+                        <!-- <img src="images/ups.png" class=""> -->
+
+
+                    </div>
+
+
+                    <div class=" col-lg-6 mill pdsn" onclick="window.open('mill.html', '_self');">
                         <div class="tags pd">| Product Design |</div>
                         <div class="centered">
                             <img src="images/New/millenials/mockupleft.png" class="mockupleft">
@@ -322,17 +354,6 @@
 
                         <!-- <img src="images/New/millenials/dmrtlogo.png" class="logoImg"> -->
 
-
-                    </div>
-                    <div class="col-lg-6 mill pdsn" onclick="window.open('howstat.html', '_self');">
-                        <div class="tags pd">| Product Design |</div>
-                        <div class="centered">
-                            <img src="images/New/millenials/mockuplefthowstat.png" class="mockupleft">
-                            <img src="images/New/millenials/mockuprighthowstat.png" class="mockupright">
-
-                        </div>
-
-                        <!-- <img src="images/New/millenials/milllogo.png" style="display: block;margin: 16px auto;"> -->
 
                     </div>
 
@@ -446,12 +467,16 @@
         var tesImg = ["images/New/millenials/laptopmockupteslaog.png", "images/New/millenials/laptopmockupteslardsn.png"];
         var dmImg = ["images/New/millenials/dmartog.png", "images/New/millenials/laptopmockup.png"];
         var primeImg = ["images/New/millenials/mockupleftprime.png", "images/New/millenials/mockuprightprime.png"];
+        var upsImg = ["images/New/millenials/mockupleftups.png", "images/New/millenials/mockuprightups.png"];
+        var amazonImg = ["images/New/millenials/mockupleftamazon.png", "images/New/millenials/mockuprightamazon.png"];
 
         var imageHead = document.getElementById("bgImg");
         var imageHead2 = document.getElementById("home");
         var imageHeadTes = document.getElementById("tes");
         var imageHeadDm = document.getElementById("dm");
         var imageHeadPr = document.getElementById("prime");
+        var imageHeadUps = document.getElementById("ups");
+        var imageHeadAmazon = document.getElementById("amazon");
         var i = 0;
         w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
         var targetWidth = 768;
@@ -461,6 +486,8 @@
                 imageHeadTes.src = tesImg[i];
                 imageHeadDm.src = dmImg[i];
                 imageHeadPr.src = primeImg[i];
+                imageHeadUps.src = upsImg[i];
+                imageHeadAmazon.src = amazonImg[i];
                 i = i + 1;
                 if (i == images.length) {
                     i = 0;
@@ -473,6 +500,8 @@
                 imageHeadTes.src = tesImg[i];
                 imageHeadDm.src = dmImg[i];
                 imageHeadPr.src = primeImg[i];
+                imageHeadUps.src = upsImg[i];
+                imageHeadAmazon.src = amazonImg[i];
                 i = i + 1;
                 if (i == images2.length) {
                     i = 0;
